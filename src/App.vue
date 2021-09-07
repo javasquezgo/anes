@@ -1,11 +1,14 @@
 <template>
-  <main></main>
+  <main>
+    <anes-header />
+  </main>
 </template>
 
 <script>
+import AnesHeader from "@/components/AnesHeader.vue";
 export default {
   name: "App",
-  components: {},
+  components: { AnesHeader },
 };
 </script>
 

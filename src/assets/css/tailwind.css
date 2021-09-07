@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
+
+.contain-dom {
+  width: 90%;
+  max-width: 1440px;
+  min-width: 320px;
+}
+
+.nav-menu {
+  @apply md:border-0
+    py-2
+    border-t border-b
+    md:ml-4
+    md:p-0
+    mx-4
+    hover:text-blue-sky;
+}
+
 @tailwind utilities;
