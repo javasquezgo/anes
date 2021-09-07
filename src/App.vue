@@ -1,11 +1,13 @@
 <template>
   <main>
     <anes-header />
+    <router-view />
   </main>
 </template>
 
 <script>
 import AnesHeader from "@/components/AnesHeader.vue";
+
 export default {
   name: "App",
   components: { AnesHeader },
