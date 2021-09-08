@@ -7,6 +7,7 @@
       bg-blue-anes
       font-poppins
       py-20
+      pb-80
       overflow-hidden
     "
   >
