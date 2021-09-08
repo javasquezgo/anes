@@ -1,8 +1,8 @@
 <template>
   <section class="relative bg-whiteBone">
-    <div class="my-48 contain-dom mx-auto flex flex-col items-center">
-      <h2 class="text-6xl mb-7 text-center">Asociate!</h2>
-      <p class="text-center md:w-2/4 mb-6">
+    <div class="flex flex-col items-center mx-auto my-48 contain-dom">
+      <h2 class="text-6xl text-center mb-7">Asociate!</h2>
+      <p class="mb-6 text-center md:w-2/4">
         Para ser miembro de la asociación es necesario presentar la siguiente
         información: solicitud de inscripción y de descuento de pagaduría en las
         instalaciones de la casa de la enfermera. Además número de carnet de la
@@ -11,25 +11,18 @@
         NIT.
       </p>
       <a href="#"
-        ><span class="font-bold text-white py-2 px-12 rounded-md bg-blue-sky"
+        ><span class="px-12 py-2 font-bold text-white rounded-md bg-blue-sky"
           >Leer más</span
         ></a
       >
     </div>
     <img
-      class="
-        absolute
-        transform
-        bottom-48
-        rotate-90
-        md:rotate-0 md:block md:bottom-48 md:left-16
-        lg:bottom-32
-      "
+      class="absolute transform rotate-90  bottom-48 md:rotate-0 md:block md:bottom-48 md:left-16 lg:bottom-32"
       src="@/assets/image/dots.svg"
       alt=""
     />
     <img
-      class="absolute hidden md:block top-32 right-16"
+      class="absolute hidden md:block top-32 right-6"
       src="@/assets/image/dots2.svg"
       alt=""
     />

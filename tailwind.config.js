@@ -11,6 +11,7 @@ module.exports = {
           anes: "#034C81",
           sky: "#5BA2F4",
           whiteBone: "#fbfbfb",
+          soft: "#046ab3",
         },
       },
     },

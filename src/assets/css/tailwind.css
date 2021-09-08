@@ -11,8 +11,13 @@
   height: 600px;
 }
 
+.card {
+  height: 80px;
+  width: 80px;
+}
+
 .nav-menu {
-  @apply md:border-0 py-2 border-t border-b md:ml-4 md:p-0 mx-4 hover:text-blue-sky;
+  @apply py-2 mx-4 border-t border-b md:border-0 md:ml-4 md:p-0 hover:text-blue-sky;
 }
 
 @tailwind utilities;
