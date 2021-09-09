@@ -14,6 +14,9 @@ module.exports = {
           soft: "#046ab3",
         },
       },
+      backgroundImage: {
+        hands: "url('~@/assets/image/bg-hands.jpg')",
+      },
     },
   },
   variants: {
