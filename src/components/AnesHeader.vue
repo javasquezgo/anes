@@ -1,6 +1,6 @@
 <template>
-  <header class="contain-dom mx-auto mt-4">
-    <nav class="md:flex items-center justify-between">
+  <header class="mx-auto my-4 contain-dom">
+    <nav class="items-center justify-between md:flex">
       <div class="flex items-center">
         <menu-icon @click="toogle()" class="ml-4 md:hidden" />
 
@@ -11,7 +11,7 @@
         />
       </div>
       <ul
-        class="font-poppins mt-6 md:flex md:mt-0"
+        class="mt-6 font-poppins md:flex md:mt-0"
         :class="showMenu ? 'block' : 'hidden'"
       >
         <li class="nav-menu">
