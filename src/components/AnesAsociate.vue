@@ -31,7 +31,14 @@
       </div>
     </div>
     <img
-      class="absolute transform rotate-90  bottom-56 md:rotate-0 md:block md:bottom-48 md:left-16 lg:bottom-32"
+      class="
+        absolute
+        transform
+        rotate-90
+        bottom-56
+        md:rotate-0 md:block md:bottom-48 md:left-16
+        lg:bottom-32
+      "
       src="@/assets/image/dots.svg"
       alt=""
     />

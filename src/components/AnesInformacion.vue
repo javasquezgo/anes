@@ -13,7 +13,17 @@
         data-aos="zoom-out-down"
         data-aos-duration="1500"
         data-aos-delay="750"
-        class="absolute flex flex-col items-center px-5 mx-auto bg-white  bottom-20 rounded-3xl information-card"
+        class="
+          absolute
+          flex flex-col
+          items-center
+          px-5
+          mx-auto
+          bg-white
+          bottom-20
+          rounded-3xl
+          information-card
+        "
       >
         <h3 class="mt-12 mb-4 text-xl font-bold text-gray-500">
           Información de contacto
