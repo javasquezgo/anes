@@ -7,13 +7,17 @@
   min-width: 320px;
 }
 
-.section-height {
-  height: 800px;
+.information-card {
+  width: 90%;
+  max-width: 600px;
+  height: 90%;
+  max-height: 300px;
 }
 
-.card {
-  height: 80px;
-  width: 80px;
+.height-section {
+  height: 100vh;
+  max-height: 900px;
+  min-height: 384px;
 }
 
 .nav-menu {

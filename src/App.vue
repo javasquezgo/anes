@@ -2,15 +2,17 @@
   <main>
     <anes-header />
     <router-view />
+    <anes-footer />
   </main>
 </template>
 
 <script>
 import AnesHeader from "@/components/AnesHeader.vue";
+import AnesFooter from "@/components/AnesFooter.vue";
 
 export default {
   name: "App",
-  components: { AnesHeader },
+  components: { AnesHeader, AnesFooter },
 };
 </script>
 
