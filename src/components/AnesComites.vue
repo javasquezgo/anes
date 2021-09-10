@@ -1,6 +1,6 @@
 <template>
-  <section class="py-10 pt-40 border bg-blue-soft">
-    <div class="mx-auto md:flex contain-dom">
+  <section class="py-10 pt-20 border bg-blue-soft">
+    <div class="mx-auto text-white-bone md:flex contain-dom">
       <div class="flex h-auto mx-auto mb-10 w-72">
         <div class="w-20 h-20 rounded-full bg-blue-sky">
           <account-tie :size="78" class="text-white" />
@@ -40,10 +40,10 @@
       </div>
     </div>
 
-    <div class="mx-auto mt-16 md:flex contain-dom">
+    <div class="mx-auto mt-12 md:flex contain-dom text-white-bone">
       <div class="flex h-auto mx-auto mb-10 w-72">
         <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <heart-outline :size="78" class="text-white" />
+          <heart-outline :size="78" class="mt-1 text-white" />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite de relaciones públicas</h4>

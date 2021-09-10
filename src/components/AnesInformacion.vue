@@ -1,14 +1,8 @@
 <template>
-  <section>
+  <section
+    class="bg-center bg-no-repeat bg-cover md:bg-enfermera bg-enfermeraMovil"
+  >
     <div class="relative flex justify-center height-section">
-      <figure class="w-full">
-        <img
-          class="w-full h-full"
-          src="@/assets/image/enfermerasX2.jpg"
-          alt="Enfermera
-          "
-        />
-      </figure>
       <div
         data-aos="zoom-out-down"
         data-aos-duration="1500"
@@ -23,6 +17,7 @@
           bottom-20
           rounded-3xl
           information-card
+          bg-white-bone
         "
       >
         <h3 class="mt-12 mb-4 text-xl font-bold text-gray-500">

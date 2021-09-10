@@ -3,12 +3,11 @@
     class="
       flex
       h-auto
-      py-20
+      py-10
       overflow-hidden
-      text-white
+      text-white-bone
       bg-blue-anes
       font-poppins
-      pb-80
     "
   >
     <div class="mx-auto contain-dom md:flex">
@@ -22,11 +21,13 @@
         "
       >
         <img
-          class="absolute z-0 left-40 bottom-14 md:hidden"
+          class="absolute z-0 left-40 bottom-32 md:hidden"
           src="@/assets/image/bubble.svg"
           alt="Decoracion"
         />
-        <h2 class="z-10 text-2xl font-bold mb-7">Nuestra Historia</h2>
+        <h2 class="z-10 text-2xl font-bold md:text-6xl mb-7">
+          Nuestra Historia
+        </h2>
         <p
           class="
             z-10
@@ -35,7 +36,7 @@
             font-medium
             leading-8
             text-center
-            md:px-0 md:text-left md:w-80
+            md:text-white-bone md:text-2xl md:px-0 md:text-left md:w-96
           "
         >
           El cuidado de Enfermería nace como una práctica social, en el cuidado

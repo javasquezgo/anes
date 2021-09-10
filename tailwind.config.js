@@ -10,12 +10,16 @@ module.exports = {
         blue: {
           anes: "#034C81",
           sky: "#5BA2F4",
-          whiteBone: "#fbfbfb",
           soft: "#046ab3",
+        },
+        white: {
+          bone: "#fbfbfb",
         },
       },
       backgroundImage: {
         hands: "url('~@/assets/image/bg-hands.jpg')",
+        enfermera: "url('~@/assets/image/enfermeras.jpg')",
+        enfermeraMovil: "url('~@/assets/image/enfermera-movil.png')",
       },
     },
   },

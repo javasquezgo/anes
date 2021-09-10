@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <section>
     <anes-section />
     <anes-history-section />
     <anes-asociate />
     <anes-comites />
     <anes-informacion />
-  </div>
+  </section>
 </template>
 <script>
 import AnesSection from "@/components/AnesSection.vue";

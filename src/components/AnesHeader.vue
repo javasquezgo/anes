@@ -5,7 +5,7 @@
         <menu-icon @click="toogle()" class="ml-4 md:hidden" />
 
         <img
-          class="w-20 h-20 mx-auto md:m-0"
+          class="mx-auto w-14 h-14 md:m-0"
           src="@/assets/image/logo.jpg"
           alt="Logo Anes"
         />

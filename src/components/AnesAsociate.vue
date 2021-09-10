@@ -1,6 +1,6 @@
 <template>
-  <section class="relative bg-whiteBone">
-    <div class="flex flex-col items-center mx-auto my-48 contain-dom">
+  <section class="relative">
+    <div class="flex flex-col items-center mx-auto mb-12 my-36 contain-dom">
       <h2
         data-aos="fade-down"
         data-aos-duration="1500"
@@ -24,21 +24,15 @@
           fotocopia DUI y NIT.
         </p>
         <a href="#"
-          ><span class="px-12 py-2 font-bold text-white rounded-md bg-blue-sky"
+          ><span
+            class="px-12 py-2 font-bold rounded-md text-white-bone bg-blue-sky"
             >Leer más</span
           ></a
         >
       </div>
     </div>
     <img
-      class="
-        absolute
-        transform
-        rotate-90
-        bottom-56
-        md:rotate-0 md:block md:bottom-48 md:left-16
-        lg:bottom-32
-      "
+      class="absolute transform rotate-90  bottom-56 md:rotate-180 md:block md:bottom-16 md:left-16 lg:bottom-0"
       src="@/assets/image/dots.svg"
       alt=""
     />
