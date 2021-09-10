@@ -4,7 +4,9 @@
       <div class="flex flex-col mb-14 md:flex-row">
         <div class="flex self-center w-48 h-48 rounded-full bg-white-bone">
           <img
-            class="self-center w-32 h-32 mx-auto"
+            class="self-center mx-auto"
+            width="128px"
+            height="128px"
             src="@/assets/image/logo.jpg"
             alt="Logo Anes"
           />

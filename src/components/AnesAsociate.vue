@@ -1,13 +1,15 @@
 <template>
-  <section class="relative">
-    <div class="flex flex-col items-center mx-auto mb-12 my-36 contain-dom">
+  <section class="relative h-96">
+    <div
+      class="flex flex-col items-center pb-16 mx-auto my-16 mb-12 contain-dom"
+    >
       <h2
         data-aos="fade-down"
         data-aos-duration="1500"
         data-aos-delay="250"
         class="text-6xl text-center mb-7"
       >
-        Asociate!
+        ¡Asociate!
       </h2>
       <div
         data-aos="fade-down"
@@ -32,7 +34,14 @@
       </div>
     </div>
     <img
-      class="absolute transform rotate-90  bottom-56 md:rotate-180 md:block md:bottom-16 md:left-16 lg:bottom-0"
+      class="
+        absolute
+        transform
+        rotate-90
+        bottom-56
+        md:rotate-0 md:block md:bottom-16 md:left-16
+        lg:bottom-36
+      "
       src="@/assets/image/dots.svg"
       alt=""
     />

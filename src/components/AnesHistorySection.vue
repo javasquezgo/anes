@@ -5,6 +5,7 @@
       h-auto
       py-10
       overflow-hidden
+      lg:py-40
       text-white-bone
       bg-blue-anes
       font-poppins

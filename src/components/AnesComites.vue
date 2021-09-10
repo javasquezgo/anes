@@ -1,7 +1,17 @@
 <template>
   <section class="py-10 pt-20 border bg-blue-soft">
     <div class="mx-auto text-white-bone md:flex contain-dom">
-      <div class="flex h-auto mx-auto mb-10 w-72">
+      <div
+        class="
+          flex
+          h-auto
+          mx-auto
+          mb-10
+          rounded-lg
+          w-72
+          hover:bg-white-dirty hover:shadow-2xl hover:text-blue-anes
+        "
+      >
         <div class="w-20 h-20 rounded-full bg-blue-sky">
           <account-tie :size="78" class="text-white" />
         </div>
