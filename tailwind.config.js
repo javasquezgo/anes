@@ -17,9 +17,9 @@ module.exports = {
         },
       },
       backgroundImage: {
-        hands: "url('~@/assets/image/bg-hands.jpg')",
+        hands: "url('~@/assets/image/bg-hands.webp')",
         enfermera: "url('~@/assets/image/enfermeras.jpg')",
-        enfermeraMovil: "url('~@/assets/image/enfermera-movil.png')",
+        enfermeraMovil: "url('~@/assets/image/enfermera-movil.webp')",
       },
     },
   },
