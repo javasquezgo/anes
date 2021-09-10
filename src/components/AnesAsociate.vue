@@ -37,7 +37,7 @@
       alt=""
     />
     <img
-      class="absolute hidden md:block top-32 right-6"
+      class="absolute hidden md:block md:top-6 lg:-top-6 top-32 right-6"
       src="@/assets/image/dots2.svg"
       alt=""
     />

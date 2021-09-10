@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="overflow-x-hidden">
     <anes-section />
     <anes-history-section />
     <anes-asociate />
