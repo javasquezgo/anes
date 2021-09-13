@@ -15,11 +15,13 @@
         :class="showMenu ? 'block' : 'hidden'"
       >
         <li class="nav-menu">
-          <a href="#"><span>Inicio</span></a>
+          <router-link to="/">Inicio</router-link>
         </li>
+
         <li class="nav-menu">
-          <a href="#"><span>Quienes Somos</span></a>
+          <router-link to="/quienes-somos">Quienes Somos</router-link>
         </li>
+
         <li class="nav-menu">
           <a href="#"><span>Asóciate</span></a>
         </li>

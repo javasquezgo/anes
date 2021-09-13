@@ -10,8 +10,10 @@ module.exports = {
         blue: {
           anes: "#034C81",
           sky: "#5BA2F4",
-          whiteBone: "#fbfbfb",
           soft: "#046ab3",
+        },
+        white: {
+          bone: "#fbfbfb",
         },
       },
       backgroundImage: {

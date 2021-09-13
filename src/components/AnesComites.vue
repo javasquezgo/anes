@@ -3,7 +3,7 @@
     <div class="mx-auto md:flex contain-dom">
       <div class="flex h-auto mx-auto mb-10 w-72">
         <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <account-tie :size="78" class="text-white" />
+          <account-tie class="font-bold text-white-bone" />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite Electoral</h4>
