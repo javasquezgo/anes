@@ -1,9 +1,14 @@
 <template>
-  <section class="py-10 pt-40 border bg-blue-soft">
+  <section class="py-10 pt-40 border bg-white-bone">
     <div class="mx-auto md:flex contain-dom">
       <div class="flex h-auto mx-auto mb-10 w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <account-tie class="font-bold text-white-bone" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="vote-yea"
+            class="mx-4 text-5xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite Electoral</h4>
@@ -13,9 +18,15 @@
           </p>
         </div>
       </div>
+
       <div class="flex h-auto mx-auto mb-10 w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <orbit :size="78" class="text-white" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="atom"
+            class="mx-5 text-6xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite Científico</h4>
@@ -26,9 +37,15 @@
           </p>
         </div>
       </div>
+
       <div class="flex h-auto mx-auto w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <animation :size="78" class="text-white" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="balance-scale"
+            class="mx-3 text-6xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite de ética profesional</h4>
@@ -42,8 +59,13 @@
 
     <div class="mx-auto mt-16 md:flex contain-dom">
       <div class="flex h-auto mx-auto mb-10 w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <heart-outline :size="78" class="text-white" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="heart"
+            class="mx-5 text-6xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite de relaciones públicas</h4>
@@ -55,8 +77,13 @@
       </div>
 
       <div class="flex h-auto mx-auto mb-10 w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <briefcase-outline :size="78" class="text-white" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="cubes"
+            class="mx-5 text-6xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite Pro-Mejoramiento</h4>
@@ -69,8 +96,13 @@
       </div>
 
       <div class="flex h-auto mx-auto w-72">
-        <div class="w-20 h-20 rounded-full bg-blue-sky">
-          <city :size="78" class="text-white" />
+        <div
+          class="flex items-center justify-center h-24 rounded-full  w-60 bg-blue-sky"
+        >
+          <font-awesome-icon
+            icon="place-of-worship"
+            class="mx-4 text-5xl text-white-bone"
+          />
         </div>
         <div class="ml-3">
           <h4 class="font-bold font-poppins">Comite de ética profesional</h4>
@@ -84,22 +116,8 @@
   </section>
 </template>
 <script>
-import AccountTie from "vue-material-design-icons/AccountTie.vue";
-import Orbit from "vue-material-design-icons/Orbit.vue";
-import Animation from "vue-material-design-icons/Animation.vue";
-import HeartOutline from "vue-material-design-icons/HeartOutline.vue";
-import BriefcaseOutline from "vue-material-design-icons/BriefcaseOutline.vue";
-import City from "vue-material-design-icons/City.vue";
-
 export default {
   name: "AnesComites",
-  components: {
-    AccountTie,
-    Orbit,
-    Animation,
-    HeartOutline,
-    BriefcaseOutline,
-    City,
-  },
+  components: {},
 };
 </script>
