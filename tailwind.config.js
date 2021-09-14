@@ -15,6 +15,9 @@ module.exports = {
         white: {
           bone: "#fbfbfb",
         },
+        gray: {
+          text: "#626262",
+        },
       },
       backgroundImage: {
         hands: "url('~@/assets/image/bg-hands.jpg')",

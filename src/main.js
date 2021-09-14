@@ -3,6 +3,8 @@ import App from "./App.vue";
 import "@/assets/css/tailwind.css";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 //Iconos de Font awesome
 import { faBalanceScale } from "@fortawesome/free-solid-svg-icons";
@@ -11,6 +13,7 @@ import { faVoteYea } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faCubes } from "@fortawesome/free-solid-svg-icons";
 import { faPlaceOfWorship } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(
@@ -19,7 +22,10 @@ library.add(
   faVoteYea,
   faHeart,
   faCubes,
-  faPlaceOfWorship
+  faPlaceOfWorship,
+  faClock,
+  faFacebookF,
+  faTwitter
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
