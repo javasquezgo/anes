@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="flex items-center justify-between h-16 mb-4 shadow-lg lg:px-16">
+    <div class="flex items-center justify-between h-16 mb-4 shadow-md lg:px-16">
       <div class="flex items-center">
         <font-awesome-icon
           :icon="['far', 'clock']"
@@ -26,47 +26,46 @@
         </a>
       </div>
     </div>
-    <div class="mx-auto mb-4 contain-dom">
-      <nav class="items-center justify-between md:flex">
-        <div class="flex items-center">
-          <menu-icon @click="toogle()" class="ml-4 md:hidden" />
 
-          <img
-            class="w-20 h-20 mx-auto md:m-0"
-            src="@/assets/image/logo.jpg"
-            alt="Logo Anes"
-          />
-        </div>
-        <ul
-          class="mt-6 font-poppins md:flex md:mt-0"
-          :class="showMenu ? 'block' : 'hidden'"
-        >
-          <li class="nav-menu">
-            <router-link to="/">Inicio</router-link>
-          </li>
+    <nav class="items-center justify-between mx-auto mb-4 md:flex contain-dom">
+      <div class="flex items-center">
+        <menu-icon @click="toogle()" class="ml-4 md:hidden" />
 
-          <li class="nav-menu">
-            <router-link to="/quienes-somos">Quienes Somos</router-link>
-          </li>
+        <img
+          class="w-20 h-20 mx-auto md:m-0"
+          src="@/assets/image/logo.jpg"
+          alt="Logo Anes"
+        />
+      </div>
+      <ul
+        class="mt-6 font-poppins md:flex md:mt-0"
+        :class="showMenu ? 'block' : 'hidden'"
+      >
+        <li class="nav-menu">
+          <router-link to="/">Inicio</router-link>
+        </li>
 
-          <li class="nav-menu">
-            <a href="#"><span>Asóciate</span></a>
-          </li>
-          <li class="nav-menu">
-            <a href="#"><span>Comités</span></a>
-          </li>
-          <li class="nav-menu">
-            <a href="#"><span>Que hacemos</span></a>
-          </li>
-          <li class="nav-menu">
-            <a href="#"><span>Convenios</span></a>
-          </li>
-          <li class="nav-menu">
-            <a href="#"><span>Contacto</span></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+        <li class="nav-menu">
+          <router-link to="/quienes-somos">Quienes Somos</router-link>
+        </li>
+
+        <li class="nav-menu">
+          <a href="#"><span>Asóciate</span></a>
+        </li>
+        <li class="nav-menu">
+          <a href="#"><span>Comités</span></a>
+        </li>
+        <li class="nav-menu">
+          <a href="#"><span>Que hacemos</span></a>
+        </li>
+        <li class="nav-menu">
+          <a href="#"><span>Convenios</span></a>
+        </li>
+        <li class="nav-menu">
+          <a href="#"><span>Contacto</span></a>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 <script>
