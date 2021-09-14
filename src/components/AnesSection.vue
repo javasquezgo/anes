@@ -8,7 +8,7 @@
         data-aos-duration="1500"
         class="text-3xl font-bold text-gray-800 md:text-8xl font-poppins"
       >
-        Dios-Union-Libertad
+        Dios-Union-Humanidad
       </h1>
     </div>
   </section>

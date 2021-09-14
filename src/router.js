@@ -3,6 +3,7 @@ import Router from "vue-router";
 
 import Home from "@/views/Home";
 import Error from "@/views/Error";
+import QuienesSomos from "@/views/QuienesSomos.vue";
 
 Vue.use(Router);
 
@@ -19,6 +20,11 @@ export default new Router({
       path: "*",
       name: "Error",
       component: Error,
+    },
+    {
+      path: "/quienes-somos",
+      name: "quienes-somos",
+      component: QuienesSomos,
     },
   ],
 });

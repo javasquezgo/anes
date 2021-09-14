@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-96">
+  <section class="relative contain-height">
     <div
       class="flex flex-col items-center pb-16 mx-auto my-16 mb-12 contain-dom"
     >
@@ -38,7 +38,7 @@
         absolute
         transform
         rotate-90
-        bottom-56
+        -bottom-20
         md:rotate-0 md:block md:bottom-16 md:left-16
         lg:bottom-36
       "

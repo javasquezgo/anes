@@ -14,7 +14,9 @@ module.exports = {
         },
         white: {
           bone: "#fbfbfb",
-          dirty: "#fcfcfc",
+        },
+        gray: {
+          text: "#626262",
         },
       },
       backgroundImage: {
