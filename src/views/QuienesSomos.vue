@@ -1,15 +1,30 @@
 <template>
   <section>
-    <div class="mx-auto my-20 contain-dom text-gray-text">
+    <div class="mx-auto my-5 contain-dom text-gray-text">
       <div class="flex flex-col justify-between md:flex-row md:items-center">
         <div class="mt-10 lg:m-0">
           <h3
-            class="mb-5 text-4xl leading-10 text-center  text-gray-title md:text-left font-roboto"
+            class="
+              mb-5
+              text-4xl
+              leading-10
+              text-center text-gray-title
+              md:text-left
+              font-roboto
+            "
           >
             Misión
           </h3>
           <p
-            class="px-5 text-lg leading-7 text-center  md:text-left md:px-0 md:pr-6 font-roboto md:w-96"
+            class="
+              px-5
+              text-lg
+              leading-7
+              text-center
+              md:text-left md:px-0 md:pr-6
+              font-roboto
+              md:w-96
+            "
           >
             Trabajar por el mejoramiento de las condiciones ambientales
             laborales óptimas, fortaleciendo el desarrollo personal y
@@ -29,16 +44,31 @@
       </div>
 
       <div
-        class="flex flex-col justify-between my-20 md:flex-row md:items-center"
+        class="flex flex-col justify-between my-10 md:flex-row md:items-center"
       >
         <div class="mt-10 lg:m-0">
           <h3
-            class="mb-5 text-4xl leading-10 text-center  text-gray-title md:text-left font-roboto"
+            class="
+              mb-5
+              text-4xl
+              leading-10
+              text-center text-gray-title
+              md:text-left
+              font-roboto
+            "
           >
             Visión
           </h3>
           <p
-            class="px-5 text-lg leading-7 text-center  md:text-left md:px-0 md:pr-6 font-roboto md:w-96"
+            class="
+              px-5
+              text-lg
+              leading-7
+              text-center
+              md:text-left md:px-0 md:pr-6
+              font-roboto
+              md:w-96
+            "
           >
             Ser una organización con identidad gremial altamente reconocida a
             nivel nacional e internacional, competitivo, con integración de
@@ -60,12 +90,27 @@
       <div class="flex flex-col justify-between md:flex-row md:items-center">
         <div class="mt-10 lg:m-0">
           <h3
-            class="mb-5 text-4xl leading-10 text-center  text-gray-title md:text-left font-roboto"
+            class="
+              mb-5
+              text-4xl
+              leading-10
+              text-center text-gray-title
+              md:text-left
+              font-roboto
+            "
           >
             Objetivo General
           </h3>
           <p
-            class="px-5 text-lg leading-7 text-center  md:text-left md:px-0 md:pr-6 font-roboto md:w-96"
+            class="
+              px-5
+              text-lg
+              leading-7
+              text-center
+              md:text-left md:px-0 md:pr-6
+              font-roboto
+              md:w-96
+            "
           >
             Fomentar el desarrollo integral de sus asociados/as mediante la
             promoción de vínculos de unión como representante y portavoz del
@@ -87,7 +132,7 @@
       </div>
     </div>
 
-    <div class="py-32 bg-white-bone">
+    <div class="py-14 bg-white-bone lg:py-32">
       <div class="flex flex-col-reverse mx-auto contain-dom lg:flex-row">
         <figure class="mx-auto w-mini md:w-auto">
           <img
@@ -107,7 +152,13 @@
         </figure>
         <div>
           <h3
-            class="mx-auto mb-12 text-4xl  text-gray-title md:text-left font-roboto"
+            class="
+              mx-auto
+              mb-12
+              text-4xl text-gray-title
+              md:text-left
+              font-roboto
+            "
           >
             Objetivos Institucionales
           </h3>
