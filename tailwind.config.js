@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       colors: {
         blue: {
@@ -17,8 +18,20 @@ module.exports = {
         },
         gray: {
           text: "#626262",
+          title: "#363636",
         },
       },
+
+      height: {
+        image: "300px",
+      },
+
+      width: {
+        mini: "320px",
+        medium: "450px",
+        list: "600px",
+      },
+
       backgroundImage: {
         hands: "url('~@/assets/image/bg-hands.webp')",
         enfermera: "url('~@/assets/image/enfermeras.jpg')",
