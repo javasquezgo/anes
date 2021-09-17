@@ -4,6 +4,7 @@ import Router from "vue-router";
 import Home from "@/views/Home";
 import Error from "@/views/Error";
 import QuienesSomos from "@/views/QuienesSomos.vue";
+import Historia from "@/views/Historia.vue";
 
 Vue.use(Router);
 
@@ -17,14 +18,19 @@ export default new Router({
       component: Home,
     },
     {
-      path: "*",
-      name: "Error",
-      component: Error,
-    },
-    {
       path: "/quienes-somos",
       name: "quienes-somos",
       component: QuienesSomos,
+    },
+    {
+      path: "/historia",
+      name: "historia",
+      component: Historia,
+    },
+    {
+      path: "*",
+      name: "Error",
+      component: Error,
     },
   ],
 });

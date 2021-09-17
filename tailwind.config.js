@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        slab: ["Roboto Slab", "serif"],
       },
       colors: {
         blue: {
@@ -15,6 +16,7 @@ module.exports = {
         },
         white: {
           bone: "#fbfbfb",
+          clear: "#fff",
         },
         gray: {
           text: "#626262",
@@ -30,6 +32,7 @@ module.exports = {
         mini: "320px",
         medium: "450px",
         list: "600px",
+        history: "90%",
       },
 
       backgroundImage: {
