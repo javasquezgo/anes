@@ -2,7 +2,16 @@
   <section class="py-14">
     <div class="mx-auto contain-dom">
       <div
-        class="flex items-center justify-center mx-auto  w-history rounded-3xl bg-blue-sky h-44"
+        class="
+          flex
+          items-center
+          justify-center
+          mx-auto
+          w-history
+          rounded-3xl
+          bg-blue-sky
+          h-44
+        "
       >
         <p class="text-6xl text-white-bone font-slab">Historia</p>
       </div>
@@ -78,7 +87,14 @@
 
     <div class="py-10 font-slab text-gray-text">
       <div
-        class="px-5 mx-auto leading-8 text-justify  contain-dom lg:p-0 lg:flex lg:justify-between"
+        class="
+          px-5
+          mx-auto
+          leading-8
+          text-justify
+          contain-dom
+          lg:p-0 lg:flex lg:justify-between
+        "
       >
         <p class="mb-10 lg:w-6/12">
           El 25 de marzo de 1934 se efectuó una sesión preliminar en la

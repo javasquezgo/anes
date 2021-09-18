@@ -50,8 +50,9 @@
         </li>
 
         <li class="nav-menu">
-          <a href="#"><span>Asóciate</span></a>
+          <router-link to="/asociate">Asóciate</router-link>
         </li>
+
         <li class="nav-menu">
           <a href="#"><span>Comités</span></a>
         </li>

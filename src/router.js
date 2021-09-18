@@ -5,6 +5,7 @@ import Home from "@/views/Home";
 import Error from "@/views/Error";
 import QuienesSomos from "@/views/QuienesSomos.vue";
 import Historia from "@/views/Historia.vue";
+import Asociate from "@/views/Asociate.vue";
 
 Vue.use(Router);
 
@@ -26,6 +27,11 @@ export default new Router({
       path: "/historia",
       name: "historia",
       component: Historia,
+    },
+    {
+      path: "/asociate",
+      name: "asociate",
+      component: Asociate,
     },
     {
       path: "*",
