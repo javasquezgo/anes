@@ -1,23 +1,7 @@
 <template>
   <main>
     <anes-header />
-    <!-- <Slider
-      animation="fade"
-      v-model="sliderValue"
-      :duration="5000"
-      :speed="1000"
-    >
-      <SliderItem
-        v-for="(i, index) in list"
-        :key="index"
-        @click="changeIndex(1)"
-        :style="i"
-      >
-        <p style="line-height: 280px; font-size: 5rem; text-align: center">
-          {{ i.texto }}
-        </p>
-      </SliderItem>
-    </Slider> -->
+    <anes-carusel />
     <router-view />
     <anes-footer />
   </main>
@@ -26,11 +10,11 @@
 <script>
 import AnesHeader from "@/components/AnesHeader.vue";
 import AnesFooter from "@/components/AnesFooter.vue";
-//import { Slider, SliderItem } from "vue-easy-slider";
+import AnesCarusel from "@/components/AnesCarusel.vue";
 
 export default {
   name: "App",
-  components: { AnesHeader, AnesFooter },
+  components: { AnesHeader, AnesFooter, AnesCarusel },
   data() {
     return {
       list: [],
