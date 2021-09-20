@@ -26,6 +26,7 @@ module.exports = {
 
       height: {
         image: "300px",
+        back: "650px",
       },
 
       width: {
@@ -39,6 +40,7 @@ module.exports = {
         hands: "url('~@/assets/image/bg-hands.webp')",
         enfermera: "url('~@/assets/image/enfermeras.jpg')",
         enfermeraMovil: "url('~@/assets/image/enfermera-movil.webp')",
+        nurses: "url('~@/assets/image/nurses.webp')",
       },
     },
   },

@@ -20,7 +20,13 @@
 
     <div class="py-12 bg-white-bone">
       <div
-        class="mx-auto  contain-dom font-slab text-gray-text lg:flex lg:justify-between"
+        class="
+          mx-auto
+          contain-dom
+          font-slab
+          text-gray-text
+          lg:flex lg:justify-between
+        "
       >
         <div class="px-6 mb-10 lg:w-1/3">
           <h3 class="mb-5 text-5xl font-bold text-center">Beneficios</h3>
