@@ -1,43 +1,29 @@
 <template>
   <section
-    class="
-      flex
-      h-auto
-      py-10
-      overflow-hidden
-      lg:py-40
-      text-white-bone
-      bg-blue-anes
-      font-poppins
-    "
+    class="flex h-auto py-16 overflow-hidden font-slab lg:py-40 font-poppins"
   >
-    <div class="mx-auto contain-dom md:flex">
+    <div class="mx-auto contain-dom md:flex md:justify-between">
       <div
         class="
-          relative
           flex flex-col
           items-center
           mx-auto
           md:items-start md:w-1/2
+          lg:m-0 lg:my-auto
         "
       >
-        <img
-          class="absolute z-0 left-40 bottom-32 md:hidden"
-          src="@/assets/image/bubble.svg"
-          alt="Decoracion"
-        />
-        <h2 class="z-10 text-2xl font-bold md:text-6xl mb-7">
+        <h2 class="z-10 text-2xl font-bold text-gray-title md:text-6xl mb-7">
           Nuestra Historia
         </h2>
         <p
           class="
-            z-10
             px-6
             mb-10
             font-medium
             leading-8
-            text-center
-            md:text-white-bone md:text-2xl md:px-0 md:text-left md:w-96
+            text-center text-justify text-gray-text
+            md:text-2xl md:px-0 md:w-80
+            lg:w-9/12
           "
         >
           El cuidado de Enfermería nace como una práctica social, en el cuidado
@@ -45,24 +31,46 @@
           en el Hospital San Patricio con las hermanas de la Caridad con un
           modelo de caridad cristiana.
         </p>
-        <a href="#"
-          ><span class="px-12 py-2 rounded-md bg-blue-sky">Leer más</span></a
-        >
+        <router-link to="/historia">
+          <span
+            class="
+              px-12
+              py-4
+              text-lg
+              rounded-full
+              font-roboto
+              bg-blue-sky
+              text-white-bone
+            "
+            >Leer más</span
+          >
+        </router-link>
       </div>
-      <figure class="hidden md:relative md:flex md:w-1/2">
+
+      <figure
+        class="
+          w-11/12
+          mx-auto
+          mt-10
+          md:w-6/12 md:my-auto
+          lg:m-0 lg:w-8/12 lg:h-8/12
+        "
+      >
+        <img
+          class="rounded md:h-image lg:w-full lg:h-full"
+          width="auto"
+          height="auto"
+          src="@/assets/image/historia.webp"
+          alt="Historia de Anes"
+        />
+      </figure>
+
+      <!-- <figure class="hidden md:relative md:flex md:w-1/2">
         <img
           data-aos="zoom-in"
           data-aos-duration="1500"
           data-aos-delay="500"
-          class="
-            h-80
-            w-80
-            md:h-52 md:w-52
-            lg:h-72 lg:w-72
-            md:absolute
-            left-9
-            lg:left-0
-          "
+          class=" h-80 w-80 md:h-52 md:w-52 lg:h-72 lg:w-72 md:absolute left-9 lg:left-0"
           src="@/assets/image/bubble.svg"
           alt=""
         />
@@ -70,16 +78,7 @@
           data-aos="zoom-in"
           data-aos-duration="1500"
           data-aos-delay="750"
-          class="
-            w-40
-            h-40
-            md:h-40 md:w-40
-            lg:h-48 lg:w-48
-            md:absolute
-            right-5
-            bottom-2
-            lg:right-0
-          "
+          class="w-40 h-40 md:h-40 md:w-40 lg:h-48 lg:w-48 md:absolute right-5 bottom-2 lg:right-0"
           src="@/assets/image/bubble.svg"
           alt=""
         />
@@ -87,19 +86,11 @@
           data-aos="zoom-in"
           data-aos-duration="1500"
           data-aos-delay="1000"
-          class="
-            w-20
-            h-20
-            md:h-28 md:w-28
-            lg:h-32 lg:w-32
-            md:absolute md:left-64
-            lg:left-96
-            right-5
-          "
+          class="w-20 h-20 md:h-28 md:w-28 lg:h-32 lg:w-32 md:absolute md:left-64 lg:left-96 right-5"
           src="@/assets/image/bubble.svg"
           alt=""
         />
-      </figure>
+      </figure> -->
     </div>
   </section>
 </template>

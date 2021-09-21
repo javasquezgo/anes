@@ -63,7 +63,7 @@
           <a href="#"><span>Convenios</span></a>
         </li>
         <li class="nav-menu">
-          <a href="#"><span>Contacto</span></a>
+          <router-link to="/contacto">Contacto</router-link>
         </li>
       </ul>
     </nav>

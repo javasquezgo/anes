@@ -6,6 +6,7 @@ import Error from "@/views/Error";
 import QuienesSomos from "@/views/QuienesSomos.vue";
 import Historia from "@/views/Historia.vue";
 import Asociate from "@/views/Asociate.vue";
+import Contacto from "@/views/Contacto.vue";
 
 Vue.use(Router);
 
@@ -32,6 +33,11 @@ export default new Router({
       path: "/asociate",
       name: "asociate",
       component: Asociate,
+    },
+    {
+      path: "/contacto",
+      name: "contacto",
+      component: Contacto,
     },
     {
       path: "*",
