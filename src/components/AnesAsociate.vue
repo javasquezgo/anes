@@ -1,6 +1,39 @@
 <template>
   <section class="py-12 bg-white-dirty font-slab">
     <div class="flex flex-col mx-auto contain-dom">
+      <div class="hidden lg:flex">
+        <div>
+          <div
+            class="pt-20 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
+          >
+            <p class="text-6xl text-blue-text">15+</p>
+            <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
+          </div>
+          <img
+            class="rounded-lg w-72 h-72"
+            width="auto"
+            height="auto"
+            src="@/assets/image/comite-apoyo.webp"
+            alt="Comite de Apoyo"
+          />
+        </div>
+        <div>
+          <div
+            class="pt-20 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
+          >
+            <p class="text-6xl text-blue-text">15+</p>
+            <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
+          </div>
+          <img
+            class="rounded-lg w-72 h-72"
+            width="auto"
+            height="auto"
+            src="@/assets/image/comite-apoyo.webp"
+            alt="Comite de Apoyo"
+          />
+        </div>
+      </div>
+
       <div>
         <h2 class="mb-10 text-5xl text-center text-gray-title">Asóciate</h2>
 
@@ -20,6 +53,14 @@
           título de enfermera, licenciada o tecnóloga, carta de egreso y
           fotocopia DUI y NIT.
         </p>
+
+        <img
+          class="mx-auto my-10 rounded w-72 md:w-medium lg:hidden"
+          width="auto"
+          height="auto"
+          src="@/assets/image/comite-ssames.webp"
+          alt="Comite de Apoyo"
+        />
 
         <ul class="px-8 mt-10 list-disc list-inside text-gray-text">
           <li class="mb-5">
