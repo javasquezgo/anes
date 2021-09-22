@@ -1,10 +1,10 @@
 <template>
   <section class="py-12 bg-white-dirty font-slab">
-    <div class="flex flex-col mx-auto contain-dom">
+    <div class="flex flex-col mx-auto contain-dom lg:flex-row">
       <div class="hidden lg:flex">
         <div>
           <div
-            class="pt-20 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
+            class="pt-20 mb-8 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
           >
             <p class="text-6xl text-blue-text">15+</p>
             <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
@@ -17,18 +17,18 @@
             alt="Comite de Apoyo"
           />
         </div>
-        <div>
+        <div class="flex flex-col-reverse pt-8 ml-8">
           <div
             class="pt-20 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
           >
-            <p class="text-6xl text-blue-text">15+</p>
-            <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
+            <p class="text-6xl text-blue-text">783</p>
+            <p class="px-20 text-xl text-gray-title">Asociados</p>
           </div>
           <img
-            class="rounded-lg w-72 h-72"
+            class="mb-8 rounded-lg w-72 h-72"
             width="auto"
             height="auto"
-            src="@/assets/image/comite-apoyo.webp"
+            src="@/assets/image/comite-ssames.webp"
             alt="Comite de Apoyo"
           />
         </div>
