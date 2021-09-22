@@ -33,7 +33,16 @@
       </div>
       <div class="bg-right bg-cover h-back bg-hands">
         <div class="flex flex-col items-center justify-center">
-          <h3 class="mb-10 text-3xl font-bold text-center md:text-5xl mt-60">
+          <h3
+            class="
+              mb-10
+              text-3xl
+              font-bold
+              text-center text-gray-title
+              md:text-5xl
+              mt-60
+            "
+          >
             Profesionales de Enfermería
           </h3>
           <router-link

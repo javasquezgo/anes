@@ -1,5 +1,5 @@
 <template>
-  <section class="relative contain-height">
+  <section class="bg-white-dirty">
     <div
       class="flex flex-col items-center pb-16 mx-auto my-16 mb-12 contain-dom"
     >

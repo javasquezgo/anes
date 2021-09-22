@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        roboto: ["Roboto", "sans-serif"],
-        slab: ["Roboto Slab", "serif"],
+        poppins: ["Poppins"],
+        roboto: ["Roboto", "serif"],
+        slab: ["Roboto Slab"],
       },
       colors: {
         blue: {
@@ -17,6 +17,7 @@ module.exports = {
         white: {
           bone: "#fbfbfb",
           clear: "#fff",
+          dirty: "#f7f7f7",
         },
         gray: {
           text: "#626262",
@@ -27,6 +28,7 @@ module.exports = {
       height: {
         image: "300px",
         back: "650px",
+        card: "436px ",
       },
 
       width: {

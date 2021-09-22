@@ -38,7 +38,7 @@
               py-4
               text-lg
               rounded-full
-              font-roboto
+              font-slab
               bg-blue-sky
               text-white-bone
             "
