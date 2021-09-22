@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-center bg-no-repeat bg-cover md:bg-enfermera bg-enfermeraMovil"
+    class="bg-center bg-no-repeat bg-cover md:bg-hands bg-enfermeraMovil"
   >
     <div class="relative flex justify-center height-section">
       <div

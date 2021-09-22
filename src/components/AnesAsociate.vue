@@ -4,7 +4,16 @@
       <div class="hidden lg:flex">
         <div>
           <div
-            class="pt-20 mb-8 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
+            class="
+              pt-20
+              mb-8
+              text-center
+              rounded-lg
+              bg-white-clear
+              h-72
+              w-72
+              font-slab
+            "
           >
             <p class="text-6xl text-blue-text">15+</p>
             <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
@@ -17,13 +26,7 @@
             alt="Comite de Apoyo"
           />
         </div>
-        <div class="flex flex-col-reverse pt-8 ml-8">
-          <div
-            class="pt-20 text-center rounded-lg  bg-white-clear h-72 w-72 font-slab"
-          >
-            <p class="text-6xl text-blue-text">783</p>
-            <p class="px-20 text-xl text-gray-title">Asociados</p>
-          </div>
+        <div class="flex flex-col pt-8 ml-8">
           <img
             class="mb-8 rounded-lg w-72 h-72"
             width="auto"
@@ -31,11 +34,34 @@
             src="@/assets/image/comite-ssames.webp"
             alt="Comite de Apoyo"
           />
+          <div
+            class="
+              pt-20
+              text-center
+              rounded-lg
+              bg-white-clear
+              h-72
+              w-72
+              font-slab
+            "
+          >
+            <p class="text-6xl text-blue-text">783</p>
+            <p class="px-20 text-xl text-gray-title">Asociados</p>
+          </div>
         </div>
       </div>
 
       <div>
-        <h2 class="mb-10 text-5xl text-center text-gray-title">Asóciate</h2>
+        <h2
+          class="
+            mb-10
+            text-5xl text-center
+            lg:text-left lg:pl-8
+            text-gray-title
+          "
+        >
+          Asóciate
+        </h2>
 
         <img
           class="mx-auto mb-10 rounded w-72 md:w-medium lg:hidden"
@@ -110,6 +136,13 @@
             >
           </li>
         </ul>
+
+        <router-link to="/asociate"
+          ><span
+            class="px-10 py-2 rounded-full lg:ml-8 bg-blue-text text-white-bone"
+            >Asóciate</span
+          ></router-link
+        >
       </div>
     </div>
   </section>
