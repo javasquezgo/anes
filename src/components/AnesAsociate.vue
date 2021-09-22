@@ -1,23 +1,18 @@
 <template>
-  <section class="bg-white-dirty">
-    <div
-      class="flex flex-col items-center pb-16 mx-auto my-16 mb-12 contain-dom"
-    >
-      <h2
-        data-aos="fade-down"
-        data-aos-duration="1500"
-        data-aos-delay="250"
-        class="text-6xl text-center mb-7"
-      >
-        ¡Asociate!
-      </h2>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1500"
-        data-aos-delay="750"
-        class="flex flex-col items-center"
-      >
-        <p class="mb-6 text-center md:w-2/4">
+  <section class="py-12 bg-white-dirty font-slab">
+    <div class="flex flex-col mx-auto contain-dom">
+      <div>
+        <h2 class="mb-10 text-5xl text-center text-gray-title">Asóciate</h2>
+
+        <img
+          class="mx-auto mb-10 rounded w-72 md:w-medium lg:hidden"
+          width="auto"
+          height="auto"
+          src="@/assets/image/comite-apoyo.webp"
+          alt="Comite de Apoyo"
+        />
+
+        <p class="px-8 text-lg text-justify font-roboto text-gray-text">
           Para ser miembro de la asociación es necesario presentar la siguiente
           información: solicitud de inscripción y de descuento de pagaduría en
           las instalaciones de la casa de la enfermera. Además número de carnet
@@ -25,31 +20,57 @@
           título de enfermera, licenciada o tecnóloga, carta de egreso y
           fotocopia DUI y NIT.
         </p>
-        <a href="#"
-          ><span
-            class="px-12 py-2 font-bold rounded-md text-white-bone bg-blue-sky"
-            >Leer más</span
-          ></a
-        >
+
+        <ul class="px-8 mt-10 list-disc list-inside text-gray-text">
+          <li class="mb-5">
+            <span class="mb-5"
+              >Ayuda Mutua de $114.28 por fallecimiento de padres, hijos y
+              esposo.</span
+            >
+          </li>
+          <li class="mb-5"><span class="mb-5">Asesoría jurídica.</span></li>
+          <li class="mb-5">
+            <span
+              >Participar en el galardón anual enfermería medalla Sor María
+              Teresa Lang y Medalla ANES.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Desarrollo profesional a través de seminarios, talleres, jornadas
+              científicas y congresos nacionales e internacionales.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Uso de auditorium de la asociación para actividades sociales y
+              culturales.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Tener representación de organismos de enfermería: FEPPEN,
+              CIE.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Apoyo a la solución de conflictos laborales.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Hacer uso del centro de cómputo en la casa de la enfermera.</span
+            >
+          </li>
+          <li class="mb-5">
+            <span class="mb-5"
+              >Inscribirse en cursos de inglés y de computación.</span
+            >
+          </li>
+        </ul>
       </div>
     </div>
-    <img
-      class="
-        absolute
-        transform
-        rotate-90
-        -bottom-20
-        md:rotate-0 md:block md:bottom-16 md:left-16
-        lg:bottom-36
-      "
-      src="@/assets/image/dots.svg"
-      alt=""
-    />
-    <img
-      class="absolute hidden md:block md:top-6 lg:-top-6 top-32 right-6"
-      src="@/assets/image/dots2.svg"
-      alt=""
-    />
   </section>
 </template>
 <script>
