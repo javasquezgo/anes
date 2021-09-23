@@ -7,6 +7,8 @@ import QuienesSomos from "@/views/QuienesSomos.vue";
 import Historia from "@/views/Historia.vue";
 import Asociate from "@/views/Asociate.vue";
 import Contacto from "@/views/Contacto.vue";
+import Comite from "@/views/Comite.vue";
+import Votacion from "@/views/Votacion.vue";
 
 Vue.use(Router);
 
@@ -35,9 +37,19 @@ export default new Router({
       component: Asociate,
     },
     {
+      path: "/comite",
+      name: "comite",
+      component: Comite,
+    },
+    {
       path: "/contacto",
       name: "contacto",
       component: Contacto,
+    },
+    {
+      path: "/votacion",
+      name: "votacion",
+      component: Votacion,
     },
     {
       path: "*",

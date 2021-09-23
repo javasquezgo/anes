@@ -136,28 +136,29 @@
       <div class="flex flex-col-reverse mx-auto contain-dom lg:flex-row">
         <figure class="mx-auto w-mini md:w-auto">
           <img
-            class="mb-10 rounded md:w-medium md:mx-auto lg:ml-32"
+            class="mb-10 rounded md:w-medium md:mx-auto xl:ml-32"
             src="@/assets/image/objetivo-institucional-historia.webp"
             alt="Enfermeras reunidad"
             width="auto"
             height="auto"
           />
           <img
-            class="mb-10 rounded md:w-medium md:mx-auto lg:mr-32"
+            class="mb-10 rounded md:w-medium md:mx-auto lg:mr-32 xl:mr-64"
             src="@/assets/image/objetivo-institucional-historia-2.webp"
             alt="Enfermeras reunidad"
             width="auto"
             height="auto"
           />
         </figure>
-        <div>
+        <div class="ml-7">
           <h3
             class="
               mx-auto
               mb-12
               text-4xl text-gray-title
-              md:text-left
+              md:text-center
               font-roboto
+              lg:text-left
             "
           >
             Objetivos Institucionales

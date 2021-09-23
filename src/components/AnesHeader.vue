@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="font-slab">
     <div class="flex items-center justify-between h-16 mb-4 shadow-md lg:px-16">
       <div class="flex items-center">
         <font-awesome-icon
@@ -38,7 +38,7 @@
         />
       </div>
       <ul
-        class="mt-6 font-poppins md:flex md:mt-0"
+        class="mt-6 font-slab md:flex md:mt-0"
         :class="showMenu ? 'block' : 'hidden'"
       >
         <li class="nav-menu">
@@ -54,13 +54,13 @@
         </li>
 
         <li class="nav-menu">
-          <a href="#"><span>Comités</span></a>
+          <router-link to="/comite">Comités</router-link>
         </li>
         <li class="nav-menu">
           <a href="#"><span>Que hacemos</span></a>
         </li>
         <li class="nav-menu">
-          <a href="#"><span>Convenios</span></a>
+          <router-link to="/votacion"><span>Votación</span></router-link>
         </li>
         <li class="nav-menu">
           <router-link to="/contacto">Contacto</router-link>
