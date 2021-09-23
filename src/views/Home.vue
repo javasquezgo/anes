@@ -1,5 +1,6 @@
 <template>
   <section class="overflow-x-hidden">
+    <anes-votacion />
     <anes-history-section />
     <anes-comites />
     <anes-asociate />
@@ -13,6 +14,7 @@ import AnesAsociate from "@/components/AnesAsociate.vue";
 import AnesComites from "@/components/AnesComites.vue";
 import AnesInformacion from "@/components/AnesInformacion.vue";
 import AnesSsamanes from "@/components/AnesSsamanes.vue";
+import AnesVotacion from "@/components/AnesVotacion.vue";
 
 export default {
   name: "Home",
@@ -22,6 +24,7 @@ export default {
     AnesAsociate,
     AnesInformacion,
     AnesSsamanes,
+    AnesVotacion,
   },
 };
 </script>
