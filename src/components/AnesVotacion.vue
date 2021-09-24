@@ -1,9 +1,26 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center py-12 mx-auto  contain-dom font-slab"
+    class="
+      flex flex-col
+      items-center
+      justify-center
+      py-12
+      mx-auto
+      contain-dom
+      font-slab
+    "
   >
     <h3
-      class="px-10 my-10 mt-24 text-5xl font-bold text-center  md:px-48 text-gray-title"
+      class="
+        px-10
+        my-10
+        mt-24
+        text-5xl
+        font-bold
+        text-center
+        md:px-48
+        text-gray-title
+      "
     >
       Votación 2021-2024
     </h3>
@@ -13,6 +30,9 @@
       ></router-link
     >
     <img
+      data-aos="zoom-out-down"
+      data-aos-duration="1000"
+      data-aos-delay="50"
       class="mt-8 text-center xl:w-8/12"
       width="auto"
       height="auto"
