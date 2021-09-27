@@ -1,28 +1,11 @@
 <template>
   <div
-    class="
-      flex flex-col
-      items-center
-      justify-center
-      py-12
-      mx-auto
-      contain-dom
-      font-slab
-    "
+    class="flex flex-col items-center justify-center py-12 mx-auto  contain-dom font-slab"
   >
     <h3
-      class="
-        px-10
-        my-10
-        mt-24
-        text-5xl
-        font-bold
-        text-center
-        md:px-48
-        text-gray-title
-      "
+      class="px-10 my-10 mt-24 text-5xl font-bold text-center uppercase  md:px-40 xl:px-80 text-gray-title"
     >
-      Votación 2021-2024
+      Elecciones Junta Directiva 2021-2024
     </h3>
     <router-link to="/votacion"
       ><span class="px-10 py-3 rounded-lg bg-blue-text text-white-bone">
