@@ -1,17 +1,18 @@
 <template>
   <section class="font-slab">
     <VueSlickCarousel v-bind="setting">
-      <div class="bg-center bg-cover h-back bg-nurses">
-        <div class="flex flex-col items-center justify-center">
+      <div class="bg-center bg-cover h-back bg-portada">
+        <div class="flex flex-col items-center">
           <h3
             class="
               mb-10
               text-3xl
               font-bold
               text-center
+              mt-28
+              justify-self-start
               md:text-5xl
               text-white-bone
-              mt-60
             "
           >
             DIOS-UNION-HUMANIDAD
@@ -31,16 +32,17 @@
           </router-link>
         </div>
       </div>
-      <div class="bg-right bg-cover h-back bg-hands">
+
+      <div class="bg-right bg-cover h-back bg-portada2">
         <div class="flex flex-col items-center justify-center">
           <h3
             class="
               mb-10
               text-3xl
               font-bold
-              text-center text-gray-title
+              text-center text-white-bone
               md:text-5xl
-              mt-60
+              mt-28
             "
           >
             Profesionales de Enfermería

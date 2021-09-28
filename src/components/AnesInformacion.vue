@@ -1,6 +1,11 @@
 <template>
   <section
-    class="bg-center bg-no-repeat bg-cover md:bg-hands bg-enfermeraMovil"
+    class="
+      bg-center bg-no-repeat bg-cover
+      font-slab
+      md:bg-filial2
+      bg-enfermeraMovil
+    "
   >
     <div class="relative flex justify-center height-section">
       <div
@@ -26,17 +31,15 @@
         <div class="flex flex-col">
           <div class="flex items-center mb-3">
             <phone-check class="text-gray-500 md:mr-6" />
-            <p class="font-poppins">2248-2430, 2248-2431</p>
+            <p>2248-2430, 2248-2431</p>
           </div>
           <div class="flex items-center mb-3">
             <email class="text-gray-500 md:mr-6" />
-            <p class="font-poppins">aneselsalvador@anes.org.sv</p>
+            <p>aneselsalvador@anes.org.sv</p>
           </div>
           <div class="flex items-center">
             <map-marker class="text-gray-500 md:mr-6" />
-            <p class="font-poppins">
-              Calle antigua a Huizucar No. 157, Reparto Los Héroes
-            </p>
+            <p>Calle antigua a Huizucar No. 157, Reparto Los Héroes</p>
           </div>
         </div>
       </div>

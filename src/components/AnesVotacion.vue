@@ -33,8 +33,7 @@
     >
     <img
       data-aos="zoom-out-down"
-      data-aos-duration="1000"
-      data-aos-delay="50"
+      data-aos-duration="700"
       class="mt-8 text-center xl:w-8/12"
       width="auto"
       height="auto"

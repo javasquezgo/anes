@@ -1,6 +1,15 @@
 <template>
   <section
-    class="flex h-auto py-16 overflow-hidden font-slab lg:py-40 font-poppins"
+    class="
+      flex
+      h-auto
+      py-16
+      overflow-hidden
+      xl:pb-0
+      font-slab
+      lg:py-40
+      bg-white-dirty
+    "
   >
     <div class="mx-auto contain-dom md:flex md:justify-between">
       <div
@@ -60,7 +69,7 @@
           class="rounded md:h-image lg:w-full lg:h-full"
           width="auto"
           height="auto"
-          src="@/assets/image/historia.webp"
+          src="@/assets/image-webp/comite-pro-familia/Image03.webp"
           alt="Historia de Anes"
         />
       </figure>

@@ -22,7 +22,7 @@
             class="rounded-lg w-72 h-72"
             width="auto"
             height="auto"
-            src="@/assets/image/comite-apoyo.webp"
+            src="@/assets/image-webp/comite-ssamanes/Image01.webp"
             alt="Comite de Apoyo"
           />
         </div>
@@ -31,7 +31,7 @@
             class="mb-8 rounded-lg w-72 h-72"
             width="auto"
             height="auto"
-            src="@/assets/image/comite-ssames.webp"
+            src="@/assets/image-webp/comite-ssamanes/Image03.webp"
             alt="Comite de Apoyo"
           />
           <div

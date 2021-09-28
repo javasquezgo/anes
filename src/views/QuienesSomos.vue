@@ -1,7 +1,13 @@
 <template>
   <section>
-    <div class="mx-auto my-5 contain-dom text-gray-text">
-      <div class="flex flex-col justify-between md:flex-row md:items-center">
+    <div class="mx-auto my-5 font-slab contain-dom text-gray-text">
+      <div
+        class="
+          flex flex-col
+          justify-between
+          md:py-5 md:pt-12 md:flex-row md:items-center
+        "
+      >
         <div class="mt-10 lg:m-0">
           <h3
             class="
@@ -10,7 +16,6 @@
               leading-10
               text-center text-gray-title
               md:text-left
-              font-roboto
             "
           >
             Misión
@@ -21,9 +26,7 @@
               text-lg
               leading-7
               text-center
-              md:text-left md:px-0 md:pr-6
-              font-roboto
-              md:w-96
+              md:text-justify md:px-0 md:pr-6 md:w-96
             "
           >
             Trabajar por el mejoramiento de las condiciones ambientales
@@ -32,12 +35,12 @@
             incidir en las políticas y prioridades nacionales de salud.
           </p>
         </div>
-        <figure class="mx-auto mt-5 lg:m-0">
+        <figure class="mx-auto mt-5 lg:m-0 xl:w-medium">
           <img
             height="auto"
             width="auto"
-            class="rounded lg:h-image"
-            src="@/assets/image/mision-historia.webp"
+            class="rounded lg:h-image md:w-medium"
+            src="@/assets/image-webp/filiales-departamentales/reunion.webp"
             alt="Mision de ANES"
           />
         </figure>
@@ -54,7 +57,6 @@
               leading-10
               text-center text-gray-title
               md:text-left
-              font-roboto
             "
           >
             Visión
@@ -65,9 +67,7 @@
               text-lg
               leading-7
               text-center
-              md:text-left md:px-0 md:pr-6
-              font-roboto
-              md:w-96
+              md:text-justify md:px-0 md:pr-6 md:w-96
             "
           >
             Ser una organización con identidad gremial altamente reconocida a
@@ -80,8 +80,8 @@
           <img
             height="auto"
             width="auto"
-            class="rounded lg:h-image"
-            src="@/assets/image/vision-historia.webp"
+            class="rounded lg:h-image md:w-medium"
+            src="@/assets/image-webp/comite-pro-familia/Image04.webp"
             alt="Mision de ANES"
           />
         </figure>
@@ -96,7 +96,6 @@
               leading-10
               text-center text-gray-title
               md:text-left
-              font-roboto
             "
           >
             Objetivo General
@@ -107,9 +106,7 @@
               text-lg
               leading-7
               text-center
-              md:text-left md:px-0 md:pr-6
-              font-roboto
-              md:w-96
+              md:text-justify md:px-0 md:pr-6 md:w-96
             "
           >
             Fomentar el desarrollo integral de sus asociados/as mediante la
@@ -124,8 +121,8 @@
           <img
             height="auto"
             width="auto"
-            class="rounded lg:h-image"
-            src="@/assets/image/objetivo-historia.webp"
+            class="rounded lg:h-image md:w-medium"
+            src="@/assets/image-webp/comite-cientifico/Image05.webp"
             alt="Mision de ANES"
           />
         </figure>
@@ -157,7 +154,6 @@
               mb-12
               text-4xl text-gray-title
               md:text-center
-              font-roboto
               lg:text-left
             "
           >

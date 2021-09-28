@@ -38,7 +38,7 @@
         />
       </div>
       <ul
-        class="mt-6 font-slab md:flex md:mt-0"
+        class="mt-6 font-bold font-slab md:flex md:mt-0"
         :class="showMenu ? 'block' : 'hidden'"
       >
         <li class="nav-menu">
