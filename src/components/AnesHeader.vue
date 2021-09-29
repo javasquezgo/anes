@@ -57,7 +57,7 @@
           <router-link to="/comite">Comités</router-link>
         </li>
         <li class="nav-menu">
-          <a href="#"><span>Que hacemos</span></a>
+          <router-link to="/ssamanes">SSAMANES</router-link>
         </li>
         <li class="nav-menu">
           <router-link to="/votacion"><span>Votación</span></router-link>

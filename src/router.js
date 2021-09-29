@@ -9,6 +9,7 @@ import Asociate from "@/views/Asociate.vue";
 import Contacto from "@/views/Contacto.vue";
 import Comite from "@/views/Comite.vue";
 import Votacion from "@/views/Votacion.vue";
+import Ssamanes from "@/views/Ssamanes.vue";
 
 Vue.use(Router);
 
@@ -50,6 +51,11 @@ export default new Router({
       path: "/votacion",
       name: "votacion",
       component: Votacion,
+    },
+    {
+      path: "/ssamanes",
+      name: "ssamanes",
+      component: Ssamanes,
     },
     {
       path: "*",

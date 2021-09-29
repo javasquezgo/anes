@@ -9,10 +9,10 @@
       </h2>
       <div class="lg:flex">
         <img
-          class="mx-auto lg:w-1/2"
+          class="mx-auto rounded-lg lg:w-1/2"
           height="auto"
           width="auto"
-          src="@/assets/image/logo.jpg"
+          src="@/assets/image-webp/filiales-departamentales/2.webp"
           alt="Logo de la ANES"
         />
         <div class="lg:w-1/2">
@@ -23,13 +23,7 @@
             respectivo y con las siguientes atribuciones:
           </p>
           <ul
-            class="
-              w-11/12
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              text-gray-title
-            "
+            class="w-11/12 mx-auto text-justify list-decimal list-inside  text-gray-title"
           >
             <li class="mb-5">
               <span
@@ -100,14 +94,7 @@
             enfermería a través de las siguientes atribuciones integrantes:
           </p>
           <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              text-gray-title
-              w-72
-              md:w-auto
-            "
+            class="mx-auto text-justify list-decimal list-inside  text-gray-title w-72 md:w-auto"
           >
             <li class="mb-5">
               <span>Irma Yolanda González</span>
@@ -135,10 +122,10 @@
           </ul>
         </div>
         <img
-          class="mx-auto md:w-1/2"
+          class="mx-auto md:w-1/2 md:mr-5"
           height="auto"
           width="auto"
-          src="@/assets/image/logo.jpg"
+          src="@/assets/image-webp/comite-cientifico/Image04.webp"
           alt="Logo de la ANES"
         />
       </div>
