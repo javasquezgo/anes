@@ -15,7 +15,7 @@
               font-slab
             "
           >
-            <p class="text-6xl text-blue-text">15+</p>
+            <p class="text-6xl text-blue-text">85+</p>
             <p class="px-20 text-xl text-gray-title">Años de Experiencia</p>
           </div>
           <img
@@ -36,17 +36,20 @@
           />
           <div
             class="
-              pt-20
-              text-center
+              flex
+              items-center
+              justify-center
               rounded-lg
               bg-white-clear
               h-72
               w-72
-              font-slab
             "
           >
-            <p class="text-6xl text-blue-text">783</p>
-            <p class="px-20 text-xl text-gray-title">Asociados</p>
+            <img
+              class="h-44 w-44"
+              src="@/assets/image/logo.jpg"
+              alt="Logo de la empresa"
+            />
           </div>
         </div>
       </div>
@@ -71,12 +74,14 @@
           alt="Comite de Apoyo"
         />
 
-        <p class="px-8 text-lg text-justify font-roboto text-gray-text">
+        <p class="px-8 text-lg text-justify font-slab text-gray-text">
           Para ser miembro de la asociación es necesario presentar la siguiente
           información: solicitud de inscripción y de descuento de pagaduría en
           las instalaciones de la casa de la enfermera. Además número de carnet
           de la Junta de Vigilancia de la Profesión de Enfermería, fotocopia de
-          título de enfermera, licenciada o tecnóloga, carta de egreso y
+          título de <strong class="uppercase">enfermera</strong>,
+          <strong class="uppercase">licenciada</strong> o
+          <strong class="uppercase">tecnóloga</strong>, carta de egreso y
           fotocopia DUI y NIT.
         </p>
 

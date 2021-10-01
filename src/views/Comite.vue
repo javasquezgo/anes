@@ -23,7 +23,13 @@
             respectivo y con las siguientes atribuciones:
           </p>
           <ul
-            class="w-11/12 mx-auto text-justify list-decimal list-inside  text-gray-title"
+            class="
+              w-11/12
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+            "
           >
             <li class="mb-5">
               <span
@@ -94,7 +100,14 @@
             enfermería a través de las siguientes atribuciones integrantes:
           </p>
           <ul
-            class="mx-auto text-justify list-decimal list-inside  text-gray-title w-72 md:w-auto"
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
           >
             <li class="mb-5">
               <span>Irma Yolanda González</span>

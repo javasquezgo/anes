@@ -1,13 +1,25 @@
 <template>
   <header class="font-slab">
-    <div class="flex items-center justify-between h-16 mb-4 shadow-md lg:px-16">
+    <div
+      class="
+        flex
+        items-center
+        justify-between
+        h-32
+        mb-4
+        shadow-md
+        md:h-16
+        lg:px-16
+      "
+    >
       <div class="flex items-center">
         <font-awesome-icon
           :icon="['far', 'clock']"
           class="mx-4 text-xl text-blue-sky"
         />
         <p class="text-gray-text">
-          Horario: Lunes - Viernes 8:00 a.m. - 5:00 p.m.
+          Horario: Lunes - Viernes 8:00 a.m. - 4:00 p.m. <br />
+          Sábados 8:00 a.m. - 12:00 p.m.
         </p>
       </div>
       <div class="flex items-center">

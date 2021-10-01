@@ -29,7 +29,7 @@ module.exports = {
       height: {
         image: "300px",
         back: "650px",
-        card: "436px ",
+        card: "250px ",
       },
 
       width: {

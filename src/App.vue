@@ -1,7 +1,6 @@
 <template>
   <main>
     <anes-header />
-    <anes-carusel />
     <router-view />
     <anes-footer />
   </main>
@@ -10,11 +9,10 @@
 <script>
 import AnesHeader from "@/components/AnesHeader.vue";
 import AnesFooter from "@/components/AnesFooter.vue";
-import AnesCarusel from "@/components/AnesCarusel.vue";
 
 export default {
   name: "App",
-  components: { AnesHeader, AnesFooter, AnesCarusel },
+  components: { AnesHeader, AnesFooter },
 };
 </script>
 

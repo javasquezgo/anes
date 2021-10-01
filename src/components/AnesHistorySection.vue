@@ -69,7 +69,7 @@
           class="rounded md:h-image lg:w-full lg:h-full"
           width="auto"
           height="auto"
-          src="@/assets/image-webp/comite-pro-familia/Image03.webp"
+          src="@/assets/image-webp/comite-cientifico/Image11.webp"
           alt="Historia de Anes"
         />
       </figure>

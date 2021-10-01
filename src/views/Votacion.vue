@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col items-center justify-center py-24 text-center h-card"
+    class="flex flex-col items-center justify-center text-center py-80 h-card"
   >
     <h2 class="text-5xl text-gray-title">Sitio en Construcción</h2>
     <p class="px-10 my-16 text-3xl text-gray-text lg:px-24 xl:px-80">
