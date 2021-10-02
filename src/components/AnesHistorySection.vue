@@ -1,39 +1,16 @@
 <template>
   <section
-    class="
-      flex
-      h-auto
-      py-16
-      overflow-hidden
-      xl:pb-0
-      font-slab
-      lg:py-40
-      bg-white-dirty
-    "
+    class="flex h-auto py-16 pb-0 overflow-hidden  xl:pb-0 font-slab lg:py-20 bg-white-dirty"
   >
     <div class="mx-auto contain-dom md:flex md:justify-between">
       <div
-        class="
-          flex flex-col
-          items-center
-          mx-auto
-          md:items-start md:w-1/2
-          lg:m-0 lg:my-auto
-        "
+        class="flex flex-col items-center mx-auto  md:items-start md:w-1/2 lg:m-0 lg:my-auto"
       >
         <h2 class="z-10 text-2xl font-bold text-gray-title md:text-6xl mb-7">
           Nuestra Historia
         </h2>
         <p
-          class="
-            px-6
-            mb-10
-            font-medium
-            leading-8
-            text-center text-justify text-gray-text
-            md:text-2xl md:px-0 md:w-80
-            lg:w-9/12
-          "
+          class="px-6 mb-10 font-medium leading-8 text-center text-justify  text-gray-text md:text-2xl md:px-0 md:w-80 lg:w-9/12"
         >
           El cuidado de Enfermería nace como una práctica social, en el cuidado
           de los enfermos e inicia su institucionalización por los años de 1841
@@ -42,34 +19,18 @@
         </p>
         <router-link to="/historia">
           <span
-            class="
-              px-12
-              py-4
-              text-lg
-              rounded-full
-              font-slab
-              bg-blue-sky
-              text-white-bone
-            "
+            class="px-12 py-4 text-lg rounded-full  font-slab bg-blue-sky text-white-bone"
             >Leer más</span
           >
         </router-link>
       </div>
 
-      <figure
-        class="
-          w-11/12
-          mx-auto
-          mt-10
-          md:w-6/12 md:my-auto
-          lg:m-0 lg:w-8/12 lg:h-8/12
-        "
-      >
+      <figure class="mt-10">
         <img
-          class="rounded md:h-image lg:w-full lg:h-full"
+          class="w-11/12 mx-auto rounded xl:w-medium"
           width="auto"
           height="auto"
-          src="@/assets/image-webp/comite-cientifico/Image11.webp"
+          src="@/assets/image-webp/Historia-SorMariaTeresaLang.webp"
           alt="Historia de Anes"
         />
       </figure>

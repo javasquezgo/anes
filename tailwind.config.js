@@ -30,6 +30,7 @@ module.exports = {
         image: "300px",
         back: "650px",
         card: "250px ",
+        comite: "500px",
       },
 
       width: {
