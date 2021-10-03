@@ -18,13 +18,7 @@
 
     <div class="py-12 bg-white-bone">
       <div
-        class="
-          mx-auto
-          contain-dom
-          font-slab
-          text-gray-text
-          lg:flex lg:justify-between
-        "
+        class="mx-auto  contain-dom font-slab text-gray-text lg:flex lg:justify-between"
       >
         <div class="px-6 mb-10 lg:w-1/3">
           <h3 class="mb-5 text-5xl font-bold text-center">Beneficios</h3>
@@ -153,62 +147,6 @@
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-
-    <div
-      class="
-        py-12
-        mx-auto
-        contain-dom
-        font-slab
-        text-gray-text
-        lg:flex lg:justify-between
-      "
-    >
-      <div class="flex flex-col items-center mb-10 lg:w-1/3">
-        <img
-          class="h-72 md:h-80"
-          width="auto"
-          height="auto"
-          src="@/assets/image/comite-apoyo.webp"
-          alt="Comite de Apoyo"
-        />
-        <h3 class="mt-10 text-3xl font-bold text-center">Comités de Apoyo</h3>
-        <p class="px-8 mb-5 text-justify lg:mb-28">
-          La asociación se encuentra conformada por comités. Estos equipos de
-          trabajo representan gran importancia como apoyo al logro de los
-          objetivos de la asociación.
-        </p>
-        <router-link to="/comites">
-          <span class="px-10 py-3 rounded-lg text-white-bone bg-blue-sky"
-            >Ver Comités</span
-          >
-        </router-link>
-      </div>
-
-      <div class="flex flex-col items-center mb-10 lg:w-1/3">
-        <img
-          class="h-72 md:h-80"
-          width="auto"
-          height="auto"
-          src="@/assets/image-webp/comite-ssamanes/Image02.webp"
-          alt="Comite de Apoyo"
-        />
-        <h3 class="mt-10 text-3xl font-bold text-center">Comités SSAMANES</h3>
-        <p class="px-8 mb-5 text-justify">
-          Asamblea General de ANES del 23 de agosto de 1985, se estableció el
-          Sistema de Servicios y Auxilios Mutuos de la Asociación Nacional de
-          Enfermeras de El Salvador SSAMANES, el cual funciona con una cuota
-          extraordinaria que sirve para conceder ayudas económicas por vejez,
-          invalidez y deceso de sus usuarias(os), en los términos de su
-          Reglamento.
-        </p>
-        <router-link to="/comites">
-          <span class="px-10 py-3 rounded-lg text-white-bone bg-blue-sky"
-            >Más información</span
-          >
-        </router-link>
       </div>
     </div>
   </section>
