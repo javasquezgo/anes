@@ -23,7 +23,16 @@
       </div>
       <div class="flex items-center justify-between px-5 md:justify-evenly">
         <div
-          class="flex items-center justify-center w-32 h-32 rounded-full  lg:mr-10 bg-white-clear"
+          class="
+            flex
+            items-center
+            justify-center
+            w-32
+            h-32
+            rounded-full
+            lg:mr-10
+            bg-white-clear
+          "
         >
           <a href="https://www.facebook.com/anes.elsavador">
             <font-awesome-icon
@@ -33,7 +42,15 @@
           </a>
         </div>
         <div
-          class="flex items-center justify-center w-32 h-32 rounded-full  bg-white-clear"
+          class="
+            flex
+            items-center
+            justify-center
+            w-32
+            h-32
+            rounded-full
+            bg-white-clear
+          "
         >
           <a href="https://twitter.com/anessalvador?lang=es">
             <font-awesome-icon

@@ -3,9 +3,7 @@
     <div
       class="flex bg-right-bottom bg-no-repeat bg-cover  h-back bg-filial2 md:bg-center-bottom"
     >
-      <p
-        class="self-center px-10 mx-auto text-6xl text-center shadow-lg  text-white-bone"
-      >
+      <p class="self-center px-10 mx-auto text-6xl text-center text-white-bone">
         Comités de Apoyo y Filiales
       </p>
     </div>
