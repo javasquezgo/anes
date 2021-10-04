@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 mx-auto font-slab contain-dom">
+  <div class="py-12 mx-auto overflow-x-hidden font-slab contain-dom">
     <h2 class="text-4xl font-bold text-center text-gray-title">
       Comités de apoyo
     </h2>
@@ -17,10 +17,10 @@
         />
         <div class="lg:w-1/2">
           <p class="w-11/12 mx-auto my-8 text-lg text-justify text-gray-title">
-            Esta formado con cinco miembros cuya elección es en la Asamblea
-            General Ordinaria del mes de marzo del año de elecciones y operará
-            de conformidad al procedimiento establecido en el reglamento
-            respectivo y con las siguientes atribuciones:
+            El Comité Electoral se conformará con cinco Miembros, cuya elección
+            será en la primera Asamblea General Ordinaria del año de elecciones
+            y operará de conformidad al procedimiento establecido en el
+            Reglamento respectivo y con las siguientes atribuciones:
           </p>
           <ul
             class="
@@ -33,53 +33,68 @@
           >
             <li class="mb-5">
               <span
-                >Desarrollar la consulta popular entre los asociados tres meses
-                antes de elecciones para nominar los posibles candidatos a
-                conformar la Junta Directiva, comités y representantes
-                gremiales.</span
+                >Elaborar y/o actualizar el reglamento para el proceso de
+                elecciones.</span
               >
             </li>
-
+            <li class="mb-5">
+              <span>Planificar y Organizar el proceso de elecciones. </span>
+            </li>
+            <li class="mb-5">
+              <span
+                >Divulgar en coordinación con Junta Directiva el proceso de
+                elecciones.
+              </span>
+            </li>
             <li class="mb-5">
               <span
                 >Inscribir la planilla de candidatos presentadas por los
                 miembros.</span
               >
             </li>
-
             <li class="mb-5">
               <span
-                >Consultar al comité de ética profesional para nominar a los
-                posibles candidatos a los diferentes caros de elección.</span
+                >Recibir el Dictamen del Comité de Ética y Legislación sobre los
+                candidatos inscritos en planillas.</span
               >
             </li>
-
             <li class="mb-5">
               <span
                 >Presidir las reuniones de consulta y entrevistas de candidatos
                 a elección.</span
               >
             </li>
-
             <li class="mb-5">
               <span
                 >Vigilar que los procesos de elección se desarrollen de
-                conformidad con los presentes estatutos.</span
+                conformidad con los presentes Estatutos</span
               >
             </li>
-
             <li class="mb-5">
               <span
-                >Realizar la elección en asamblea general ordinaria y en
-                asamblea general extraordinaria cuando el caso lo amerite siendo
-                este el primer punto de agenda en las citadas asambleas.</span
+                >Realizar la elección de junta Directiva en Asamblea General
+                Extraordinaria.</span
               >
             </li>
-
-            <li>
+            <li class="mb-5">
+              <span
+                >El escrutinio se realizará en Asamblea general Extraordinaria
+                con la presencia de un miembro representante de cada planilla,
+                un representante del comité electoral y un miembro del comité de
+                Ética y Legislación.</span
+              >
+            </li>
+            <li class="mb-5">
               <span
                 >Dar a conocer los resultados de la elección en la misma
-                sesión.</span
+                Asamblea y realizar su juramentación por la Presidenta
+                saliente.</span
+              >
+            </li>
+            <li class="mb-5">
+              <span
+                >Presentar en Asamblea General el reglamento electoral para su
+                debida aprobación.</span
               >
             </li>
           </ul>
@@ -91,46 +106,53 @@
       <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
         Comités Científico
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+      <div class="flex flex-col-reverse mt-8 md:flex-row">
         <div class="md:w-1/2">
-          <p class="px-5 my-8 text-lg text-justify text-gray-title md:p-0">
-            Es el equipo responsable de promover el desarrollo del conocimiento
-            científico, tecnológico y ético del profesional de enfermería.
-            Generando la competitividad en las diferentes áreas del accionar de
-            enfermería a través de las siguientes atribuciones integrantes:
-          </p>
           <ul
             class="
               mx-auto
               text-justify
               list-decimal list-inside
+              lg:pr-14
               text-gray-title
               w-72
               md:w-auto
             "
           >
             <li class="mb-5">
-              <span>Irma Yolanda González</span>
+              <span
+                >Planificar, organizar, coordinar, ejecutar y evaluar Congresos,
+                Jornadas, Conferencias y otros eventos científicos.
+              </span>
             </li>
 
             <li class="mb-5">
-              <span>Blanca Lizzette Rivas</span>
+              <span
+                >Elaborar y presentar informe a Junta Directiva de las
+                actividades desarrolladas.</span
+              >
             </li>
 
             <li class="mb-5">
-              <span>Yanira Patricia Corcio de Meléndez</span>
+              <span
+                >Apoyar en la logística en los eventos científicos a
+                Desarrollar.</span
+              >
             </li>
 
             <li class="mb-5">
-              <span>Blanca Alicia de Marenco</span>
+              <span
+                >Promocionar los eventos científicos en los diferentes sectores
+                de Enfermería y en los departamentos con el apoyo de las
+                filiales.</span
+              >
             </li>
 
             <li class="mb-5">
-              <span>Magdalena Baches de Fuentes</span>
-            </li>
-
-            <li class="mb-5">
-              <span>Juan Carlos Reyes</span>
+              <span
+                >Divulgar los eventos científicos en los diferentes medios de
+                comunicación y redes Sociales.
+              </span>
             </li>
           </ul>
         </div>
@@ -144,70 +166,578 @@
       </div>
     </div>
 
-    <!-- <div class="mt-12 lg:flex">
-      <img
-        class="mx-auto lg:w-1/2"
-        height="auto"
-        width="auto"
-        src="@/assets/image/logo.jpg"
-        alt="Logo de la ANES"
-      />
-      <div class="lg:w-1/2">
-        <h2 class="mt-8 text-3xl font-bold text-center text-gray-title">
-          Comités de Ética Profesional
-        </h2>
-        <p class="px-5 my-8 text-lg text-justify text-gray-title md:p-0">
-          Son atribuciones del comité:
-        </p>
-        <ul
-          class="mx-auto text-justify list-decimal list-inside text-gray-title w-72 md:w-auto"
-        >
-          <li class="mb-5">
-            <span
-              >Fomenta el respecto entre el gremio de enfermería durante el
-              cumplimiento de sus actividades profesionales.</span
-            >
-          </li>
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        Comités de Ética
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Investigar las denuncias o quejas que se presenten a la Junta
+                Directiva, por hechos contrarios a la ética profesional
+              </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Vigilar que los procesos de elección de la Junta Directiva se
-              desarrollen acorde a estos estatutos.</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Fomentar los valores y principios éticos entre el gremio de
+                Enfermería durante el cumplimiento de sus actividades
+                profesionales.</span
+              >
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Estudiar y proponer soluciones a los problemas relacionados con
-              el ejercicio de la enfermería que recomiende la Junta
-              Directiva.</span
-            >
-          </li>
-        </ul>
-        <p class="text-lg font-bold text-gray-title">Integrantes</p>
-        <ul
-          class="mx-auto text-justify list-decimal list-inside text-gray-title w-72 md:w-auto"
-        >
-          <li class="mb-2">
-            <span>Alba Marina Díaz de Navarro</span>
-          </li>
+            <li class="mb-5">
+              <span
+                >Vigilar que los procesos de elección de la Junta Directiva se
+                desarrollen de acuerdo a los Estatutos vigentes.</span
+              >
+            </li>
 
-          <li class="mb-2">
-            <span>Silvia Margarita Flores</span>
-          </li>
+            <li class="mb-5">
+              <span
+                >Participar con el comité de investigación científica en
+                estudios sobre los problemas relacionados con el ejercicio de la
+                Enfermería.</span
+              >
+            </li>
 
-          <li class="mb-2">
-            <span>Lorena Rosales De Bonilla</span>
-          </li>
-          <li class="mb-2">
-            <span>Sonia Evelia Romero de Flores</span>
-          </li>
-
-          <li class="mb-2">
-            <span>Marta Irene Aragón de Medina</span>
-          </li>
-        </ul>
+            <li class="mb-5">
+              <span
+                >Proponer a Junta Directiva las recomendaciones a los problemas
+                investigados con su respectivo informe.
+              </span>
+            </li>
+            <li class="mb-5">
+              <span
+                >Participar en las elecciones de Junta Directiva de acuerdo a lo
+                establecido en el reglamento electoral.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
       </div>
-    </div> -->
+    </div>
+
+    <div class="mt-12">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El Comité de Higiene y Seguridad Laboral
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              lg:pr-14
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Elaborar y presentar plan de trabajo a junta directiva.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar a Junta Directiva necesidades de investigación
+                relacionadas a condiciones salariales y laborales de
+                enfermería.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Participar en investigaciones relacionadas con las condiciones
+                laborales y salariales de enfermería.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Socializar los resultados de las investigaciones realizadas a
+                los niveles correspondientes.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span>Impulsar la ejecución de la propuesta de mejora. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Promover el cumplimiento del Art.149 de la OIT, referente a las
+                prestaciones del personal de enfermería.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Rendir informe de actividades realizadas. </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El Comité de Relaciones públicas
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Apoyar la Logística de atención de representantes Nacionales e
+                Internacionales.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Elaborar y publicar la revista anual de logros de la
+                Asociación.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Debe coordinar con el comité de revista para divulgar las
+                actividades nacionales e internacionales relevantes realizadas y
+                promocionar la Organización con todos los sectores de
+                Enfermería, redes sociales, medios de comunicación, así como la
+                Inscripción de nuevos socios.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Elaborar en forma digital la propuesta del suplemento del día
+                de la enfermera.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Elaborar, ejecutar y presentar Plan de Trabajo e informes de
+                actividades a Junta Directiva Nacional.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El Comité Pro-Casa de la enfermera
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              lg:pr-14
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Elaborar y presentar plan de trabajo a Junta Directiva
+                Nacional.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar proyectos relacionados a la mejora de la casa de la
+                Enfermera
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Desarrollar actividades que contribuyan al mejoramiento, el
+                confort y ambientación de la casa de la Enfermera.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar informe a Junta Directiva y en asamblea de
+                actividades realizadas.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        Comité de Estímulos
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span>Elaborar plan de trabajo. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Actualizar los requisitos del proceso de selección del personal
+                de enfermería que participara al máximo Galardón, medalla Sor
+                María Lang y Medalla ANES.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Revisión y análisis de Curriculum, de las participantes de para
+                las medallas.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Fomentar la participación de las socias y socios al máximo
+                Galardón a través de los diferentes medios.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar informe del proceso de Selección a Junta Directiva.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Informar en Asamblea General la nómina de los galardonados y su
+                hoja de vida.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Elaborar y presentar informe de actividades realizadas.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El Comité Pro-Día
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              lg:pr-14
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Apoyar a la Junta Directiva en la Planificación, organización y
+                desarrollo de las actividades relacionadas con la celebración
+                del Día de la Enfermera a nivel nacional.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Revisión de Expediente de socios activos que cumplen 25 años,
+                50 años de ser socios y Jubiladas del año anterior.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar a Junta Directiva, asamblea y Filiales el informe de
+                Nómina de participantes.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Presentar a Junta Directiva el Informe de las actividades
+                realizadas.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Promover la mejor atención de las afiliadas el día de los actos
+                oficiales.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El comité de Investigación
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span>Elaborar plan de trabajo. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Elaborar diagnóstico para identificar líneas gremiales de
+                investigación que le permitan la elaboración de proyectos.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span>Planificar y ejecutar investigación.</span>
+            </li>
+
+            <li class="mb-5">
+              <span>Identificar posibles fuentes de financiamiento. </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Socialización de los proyectos </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Elaborar y presentar informes. </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Elaborar artículos científicos para publicaciones </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        El Comité de Liderazgo
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              lg:pr-14
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span
+                >Elaborar propuestas de visibilización de la profesión en
+                espacios de toma de decisiones y mantener la estructura de
+                Enfermería.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Promover el liderazgo gremial. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Hacer incidencia en políticas públicas, leyes, convenios,
+                tratados, que favorezcan el derecho a la salud de la población y
+                sus asociados.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Apoyar proyectos que fortalezcan el liderazgo de los
+                asociados.</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Promover las condiciones de participación y compromiso en los
+                asociados.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+        Comité Diseño y Edición de Revista
+      </h2>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+        <div class="md:w-1/2">
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span>Elaborar plan de trabajo. </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Elaborar revista. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Gestionar el código internacional para la revista (ISBN).</span
+              >
+            </li>
+
+            <li class="mb-5">
+              <span>Identificar la información para elaborar la revista. </span>
+            </li>
+
+            <li class="mb-5">
+              <span
+                >Promover la elaboración de artículos de revisión para su
+                respectiva publicación.
+              </span>
+            </li>
+
+            <li class="mb-5">
+              <span>Promover la revista digital. </span>
+            </li>
+          </ul>
+        </div>
+        <img
+          class="mx-auto md:w-1/2 md:mr-5"
+          height="auto"
+          width="auto"
+          src="@/assets/image/logo.jpg"
+          alt="Logo de la ANES"
+        />
+      </div>
+    </div>
   </div>
 </template>
