@@ -41,7 +41,10 @@
           en el Hospital San Patricio con las hermanas de la Caridad con un
           modelo de caridad cristiana.
         </p>
-        <router-link to="/historia">
+        <router-link
+          to="/historia#historia
+        "
+        >
           <span
             class="
               px-12

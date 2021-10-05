@@ -63,4 +63,12 @@ export default new Router({
       component: Error,
     },
   ],
+
+  scrollBehavior: function (to) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+      };
+    }
+  },
 });

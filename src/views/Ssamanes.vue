@@ -2,14 +2,7 @@
   <section>
     <div class="py-10 mx-auto contain-dom font-slab">
       <h2
-        class="
-          w-11/12
-          mx-auto
-          text-3xl text-center
-          md:w-9/12
-          xl:w-6/12
-          text-gray-title
-        "
+        class="w-11/12 mx-auto text-3xl text-center  md:w-9/12 xl:w-6/12 text-gray-title"
       >
         SISTEMA DE SERVICIOS Y AUXILIOS MUTUOS DE LA ASOCIACIÓN NACIONAL DE
         ENFERMERAS DE EL SALVADOR
@@ -85,14 +78,7 @@
           </h2>
 
           <ul
-            class="
-              px-3
-              text-lg text-justify
-              list-disc list-outside
-              text-gray-text
-              mt-7
-              lg:ml-7
-            "
+            class="px-3 text-lg text-justify list-disc list-outside  text-gray-text mt-7 lg:ml-7"
           >
             <li class="mb-4">
               <span>Licenciada(o) </span>
@@ -149,51 +135,46 @@
 
       <div class="mt-20">
         <h2
-          class="
-            w-11/12
-            mx-auto
-            text-3xl text-center
-            md:w-9/12
-            lg:w-6/12
-            text-gray-title
-          "
+          class="w-11/12 mx-auto text-3xl text-center  md:w-9/12 lg:w-6/12 text-gray-title"
         >
           BENEFICIOS QUE OFRECE SSAMANES
         </h2>
         <p
-          class="
-            px-3
-            mt-5
-            text-lg text-justify text-gray-text
-            md:px-40 md:mx-auto
-            xl:px-96
-          "
+          class="px-3 mt-5 text-lg text-justify  text-gray-text md:px-40 md:mx-auto xl:px-28"
         >
           La ayuda económica que ofrece S.S.A.M.A.N.E.S. a sus usuarias (os)
           hace un total de $4,500.00 (Cuatro Mil Quinientos 00/100 dólares
           americanos), distribuidos de la siguiente manera:
         </p>
-        <ul
-          class="
-            text-lg text-justify
-            list-decimal list-outside
-            px-7
-            md:w-medium
-            text-gray-text
-            mt-7
-            md:mx-auto
-          "
+        <table
+          class="w-5/12 mx-auto mt-10 text-gray-900 bg-white border-separate shadow-none "
         >
-          <li class="mb-4">
-            <span>Ayuda económica Adelantada $ 1,400.00</span>
-          </li>
-          <li class="mb-4">
-            <span>Ayuda económica para gastos funerarios $ 600.00</span>
-          </li>
-          <li class="mb-4">
-            <span>Ayuda económica por defunción $ 2,500.00</span>
-          </li>
-        </ul>
+          <tbody>
+            <tr class="text-blue-900 bg-blue-100">
+              <td class="p-2">Ayuda económica Adelantada</td>
+              <td class="p-2">$ 1,400.00</td>
+            </tr>
+            <tr class="text-blue-900 bg-blue-200">
+              <td class="p-2">Ayuda económica para gastos funerarios</td>
+              <td class="p-2">$ 600.00</td>
+            </tr>
+            <tr class="text-blue-900 bg-blue-100">
+              <td class="p-2">Ayuda económica por defunción</td>
+              <td class="p-2">$ 2,500.00</td>
+            </tr>
+          </tbody>
+        </table>
+        <p
+          class="px-3 mt-5 text-lg text-justify  text-gray-text md:px-40 md:mx-auto xl:px-28"
+        >
+          Adicionalmente concede ayuda por invalidez total y permanente
+          equivalente a $1,250.00 (Un mil doscientos cincuenta 00/100 dólares).
+          Pagadera en 25 cuotas de $50.00 (Cincuenta 00/100 dólares), cada una.
+          Según procedimiento establecido. Estas ayudas podrán ser modificadas
+          en base al Estudio Actuarial más reciente. Toda(o) usuaria (o) debe
+          estar solvente con el pago de sus cuotas de ANES y SSAMANES al momento
+          de la entrega de los beneficios.
+        </p>
       </div>
 
       <div class="mt-20 lg:flex">
@@ -212,13 +193,7 @@
           </h2>
 
           <ul
-            class="
-              px-3
-              text-lg text-justify
-              list-disc list-outside
-              text-gray-text
-              mt-7
-            "
+            class="px-3 text-lg text-justify list-disc list-outside  text-gray-text mt-7"
           >
             <li class="mb-4">
               <span
@@ -258,27 +233,11 @@
         />
       </div>
 
-      <div class="mt-20">
-        <h2
-          class="
-            w-11/12
-            mx-auto
-            text-3xl text-center
-            md:w-9/12
-            lg:w-6/12
-            text-gray-title
-          "
-        >
+      <div class="my-12 md:my-24">
+        <h2 class="text-3xl text-center text-gray-title">
           AYUDA ECONÓMICA PARA GASTOS FUNERARIOS
         </h2>
-        <p
-          class="
-            px-3
-            mt-5
-            text-lg text-justify text-gray-text
-            md:px-40 md:mx-auto
-          "
-        >
+        <p class="px-3 mt-5 text-lg md:px-48 text-gray-text xl:px-24">
           Será entregada al pariente o responsable del funeral, a más tardar
           quince días después de la presentación de partida original de
           defunción de la usuaria(o) y factura de la funeraria según
@@ -291,19 +250,6 @@
 
       <div class="mt-20 lg:flex">
         <div>
-          <h2 class="text-3xl text-center text-gray-title">
-            AYUDA ECONÓMICA PARA GASTOS FUNERARIOS
-          </h2>
-          <p class="px-3 mt-5 text-lg text-justify text-gray-text">
-            Será entregada al pariente o responsable del funeral, a más tardar
-            quince días después de la presentación de partida original de
-            defunción de la usuaria(o) y factura de la funeraria según
-            procedimiento. En el caso que quien paga los gastos funerarios no es
-            beneficiario, deberá presentar copia de DUI ampliado al 150% y
-            partida de nacimiento original. La (el) usuaria(o) debe estar
-            solvente con el pago de sus cuotas de ANES y SSAMANES para la
-            entrega del beneficio.
-          </p>
           <h2 class="text-3xl text-center text-gray-title">
             AYUDA ECONÓMICA POR DEFUNCIÓN
           </h2>

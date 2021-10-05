@@ -26,6 +26,10 @@
   @apply py-2 mx-4 border-t border-b md:border-0 md:ml-4 md:p-0 hover:text-blue-sky text-gray-text;
 }
 
+.back-title-comite {
+  @apply py-4 rounded-lg bg-blue-soft;
+}
+
 @tailwind utilities;
 
 .card-comite {

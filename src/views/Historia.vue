@@ -1,5 +1,5 @@
 <template>
-  <section class="py-14">
+  <section class="py-14" id="historia">
     <div class="mx-auto contain-dom">
       <div
         class="

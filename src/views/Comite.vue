@@ -3,8 +3,18 @@
     <h2 class="text-4xl font-bold text-center text-gray-title">
       Comités de apoyo
     </h2>
-    <div class="mt-12">
-      <h2 class="mt-12 mb-6 text-3xl font-bold text-center text-gray-title">
+    <div class="mt-12" id="electoral">
+      <h2
+        class="
+          mt-12
+          mb-6
+          text-3xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         Comités Electoral
       </h2>
       <div class="lg:flex">
@@ -12,7 +22,7 @@
           class="mx-auto rounded-lg lg:w-1/2"
           height="auto"
           width="auto"
-          src="@/assets/image-webp/filiales-departamentales/2.webp"
+          src="@/assets/image/logo.jpg"
           alt="Logo de la ANES"
         />
         <div class="lg:w-1/2">
@@ -103,7 +113,17 @@
     </div>
 
     <div class="mt-12">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        id="cientifico"
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         Comités Científico
       </h2>
       <div class="flex flex-col-reverse mt-8 md:flex-row">
@@ -166,11 +186,27 @@
       </div>
     </div>
 
-    <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
-        Comités de Ética
+    <div class="mt-16" id="etica">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
+        Comité de Ética
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+      <div
+        class="
+          flex flex-col-reverse
+          mt-8
+          md:flex-row-reverse
+          xl:h-96 xl:justify-evenly
+        "
+      >
         <div class="md:w-1/2">
           <ul
             class="
@@ -227,7 +263,7 @@
           </ul>
         </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-96 xl:m-0"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -237,10 +273,19 @@
     </div>
 
     <div class="mt-12">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El Comité de Higiene y Seguridad Laboral
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row">
+      <div class="flex flex-col-reverse mt-8 md:flex-row xl:h-96">
         <div class="md:w-1/2">
           <ul
             class="
@@ -298,7 +343,7 @@
           </ul>
         </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-96"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -307,63 +352,79 @@
       </div>
     </div>
 
-    <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+    <div class="mt-16" id="relaciones">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El Comité de Relaciones públicas
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
-        <div class="md:w-1/2">
-          <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              text-gray-title
-              w-72
-              md:w-auto
-            "
-          >
-            <li class="mb-5">
-              <span
-                >Apoyar la Logística de atención de representantes Nacionales e
-                Internacionales.
-              </span>
-            </li>
+      <div
+        class="
+          flex flex-col-reverse
+          mt-8
+          md:flex-row-reverse
+          lg:h-etica
+          xl:h-lider
+        "
+      >
+        <ul
+          class="
+            h-auto
+            mx-auto
+            text-justify
+            list-decimal list-inside
+            md:w-1/2
+            text-gray-title
+            w-72
+          "
+        >
+          <li class="mb-5">
+            <span
+              >Apoyar la Logística de atención de representantes Nacionales e
+              Internacionales.
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Elaborar y publicar la revista anual de logros de la
-                Asociación.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Elaborar y publicar la revista anual de logros de la
+              Asociación.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Debe coordinar con el comité de revista para divulgar las
-                actividades nacionales e internacionales relevantes realizadas y
-                promocionar la Organización con todos los sectores de
-                Enfermería, redes sociales, medios de comunicación, así como la
-                Inscripción de nuevos socios.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Debe coordinar con el comité de revista para divulgar las
+              actividades nacionales e internacionales relevantes realizadas y
+              promocionar la Organización con todos los sectores de Enfermería,
+              redes sociales, medios de comunicación, así como la Inscripción de
+              nuevos socios.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Elaborar en forma digital la propuesta del suplemento del día
-                de la enfermera.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Elaborar en forma digital la propuesta del suplemento del día de
+              la enfermera.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Elaborar, ejecutar y presentar Plan de Trabajo e informes de
-                actividades a Junta Directiva Nacional.
-              </span>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <span
+              >Elaborar, ejecutar y presentar Plan de Trabajo e informes de
+              actividades a Junta Directiva Nacional.
+            </span>
+          </li>
+        </ul>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-mini"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -372,54 +433,61 @@
       </div>
     </div>
 
-    <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+    <div class="mt-16" id="mejoramiento">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El Comité Pro-Casa de la enfermera
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row">
-        <div class="md:w-1/2">
-          <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              lg:pr-14
-              text-gray-title
-              w-72
-              md:w-auto
-            "
-          >
-            <li class="mb-5">
-              <span
-                >Elaborar y presentar plan de trabajo a Junta Directiva
-                Nacional.
-              </span>
-            </li>
+      <div class="flex flex-col-reverse mt-8 md:flex-row lg:h-72">
+        <ul
+          class="
+            mx-auto
+            text-justify
+            list-decimal list-inside
+            lg:pr-14
+            text-gray-title
+            w-72
+            md:w-1/2
+          "
+        >
+          <li class="mb-5">
+            <span
+              >Elaborar y presentar plan de trabajo a Junta Directiva Nacional.
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Presentar proyectos relacionados a la mejora de la casa de la
-                Enfermera
-              </span>
-            </li>
+          <li class="mb-5">
+            <span
+              >Presentar proyectos relacionados a la mejora de la casa de la
+              Enfermera
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Desarrollar actividades que contribuyan al mejoramiento, el
-                confort y ambientación de la casa de la Enfermera.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Desarrollar actividades que contribuyan al mejoramiento, el
+              confort y ambientación de la casa de la Enfermera.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Presentar informe a Junta Directiva y en asamblea de
-                actividades realizadas.</span
-              >
-            </li>
-          </ul>
-        </div>
+          <li class="mb-5">
+            <span
+              >Presentar informe a Junta Directiva y en asamblea de actividades
+              realizadas.</span
+            >
+          </li>
+        </ul>
+
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 lg:w-72"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -429,10 +497,26 @@
     </div>
 
     <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         Comité de Estímulos
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
+      <div
+        class="
+          flex flex-col-reverse
+          mt-8
+          md:flex-row-reverse
+          xl:justify-evenly xl:h-96
+        "
+      >
         <div class="md:w-1/2">
           <ul
             class="
@@ -491,7 +575,7 @@
           </ul>
         </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-96 xl:m-0"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -500,11 +584,22 @@
       </div>
     </div>
 
-    <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+    <div class="mt-16" id="dia">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El Comité Pro-Día
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row">
+      <div
+        class="flex flex-col-reverse mt-8 md:flex-row xl:justify-evenly xl:h-80"
+      >
         <div class="md:w-1/2">
           <ul
             class="
@@ -555,65 +650,79 @@
           </ul>
         </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-80 xl:m-0"
           height="auto"
           width="auto"
-          src="@/assets/image/logo.jpg"
+          src="@/assets/image-webp/comite-pro-familia/Image02.webp"
           alt="Logo de la ANES"
         />
       </div>
     </div>
 
     <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El comité de Investigación
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
-        <div class="md:w-1/2">
-          <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              text-gray-title
-              w-72
-              md:w-auto
-            "
-          >
-            <li class="mb-5">
-              <span>Elaborar plan de trabajo. </span>
-            </li>
+      <div
+        class="
+          flex flex-col-reverse
+          mt-8
+          md:justify-between md:flex-row-reverse
+          lg:h-80
+        "
+      >
+        <ul
+          class="
+            mx-auto
+            text-justify
+            list-decimal list-inside
+            text-gray-title
+            w-72
+            md:w-1/2
+          "
+        >
+          <li class="mb-5">
+            <span>Elaborar plan de trabajo. </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Elaborar diagnóstico para identificar líneas gremiales de
-                investigación que le permitan la elaboración de proyectos.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Elaborar diagnóstico para identificar líneas gremiales de
+              investigación que le permitan la elaboración de proyectos.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span>Planificar y ejecutar investigación.</span>
-            </li>
+          <li class="mb-5">
+            <span>Planificar y ejecutar investigación.</span>
+          </li>
 
-            <li class="mb-5">
-              <span>Identificar posibles fuentes de financiamiento. </span>
-            </li>
+          <li class="mb-5">
+            <span>Identificar posibles fuentes de financiamiento. </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Socialización de los proyectos </span>
-            </li>
+          <li class="mb-5">
+            <span>Socialización de los proyectos </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Elaborar y presentar informes. </span>
-            </li>
+          <li class="mb-5">
+            <span>Elaborar y presentar informes. </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Elaborar artículos científicos para publicaciones </span>
-            </li>
-          </ul>
-        </div>
+          <li class="mb-5">
+            <span>Elaborar artículos científicos para publicaciones </span>
+          </li>
+        </ul>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 lg:w-80"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -623,59 +732,66 @@
     </div>
 
     <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         El Comité de Liderazgo
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row">
-        <div class="md:w-1/2">
-          <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              lg:pr-14
-              text-gray-title
-              w-72
-              md:w-auto
-            "
-          >
-            <li class="mb-5">
-              <span
-                >Elaborar propuestas de visibilización de la profesión en
-                espacios de toma de decisiones y mantener la estructura de
-                Enfermería.
-              </span>
-            </li>
+      <div class="flex flex-col-reverse mt-8 md:flex-row lg:h-lider">
+        <ul
+          class="
+            mx-auto
+            text-justify
+            list-decimal list-inside
+            lg:pr-14
+            text-gray-title
+            w-72
+            md:w-1/2
+          "
+        >
+          <li class="mb-5">
+            <span
+              >Elaborar propuestas de visibilización de la profesión en espacios
+              de toma de decisiones y mantener la estructura de Enfermería.
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Promover el liderazgo gremial. </span>
-            </li>
+          <li class="mb-5">
+            <span>Promover el liderazgo gremial. </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Hacer incidencia en políticas públicas, leyes, convenios,
-                tratados, que favorezcan el derecho a la salud de la población y
-                sus asociados.
-              </span>
-            </li>
+          <li class="mb-5">
+            <span
+              >Hacer incidencia en políticas públicas, leyes, convenios,
+              tratados, que favorezcan el derecho a la salud de la población y
+              sus asociados.
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Apoyar proyectos que fortalezcan el liderazgo de los
-                asociados.</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Apoyar proyectos que fortalezcan el liderazgo de los
+              asociados.</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Promover las condiciones de participación y compromiso en los
-                asociados.</span
-              >
-            </li>
-          </ul>
-        </div>
+          <li class="mb-5">
+            <span
+              >Promover las condiciones de participación y compromiso en los
+              asociados.</span
+            >
+          </li>
+        </ul>
+
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 lg:w-mini"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -685,53 +801,60 @@
     </div>
 
     <div class="mt-16">
-      <h2 class="mt-12 text-4xl font-bold text-center text-gray-title">
+      <h2
+        class="
+          mt-12
+          text-4xl
+          font-bold
+          text-center
+          back-title-comite
+          text-gray-title
+        "
+      >
         Comité Diseño y Edición de Revista
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse">
-        <div class="md:w-1/2">
-          <ul
-            class="
-              mx-auto
-              text-justify
-              list-decimal list-inside
-              text-gray-title
-              w-72
-              md:w-auto
-            "
-          >
-            <li class="mb-5">
-              <span>Elaborar plan de trabajo. </span>
-            </li>
+      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse lg:h-72">
+        <ul
+          class="
+            mx-auto
+            text-justify
+            list-decimal list-inside
+            text-gray-title
+            w-72
+            md:w-1/2
+          "
+        >
+          <li class="mb-5">
+            <span>Elaborar plan de trabajo. </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Elaborar revista. </span>
-            </li>
+          <li class="mb-5">
+            <span>Elaborar revista. </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Gestionar el código internacional para la revista (ISBN).</span
-              >
-            </li>
+          <li class="mb-5">
+            <span
+              >Gestionar el código internacional para la revista (ISBN).</span
+            >
+          </li>
 
-            <li class="mb-5">
-              <span>Identificar la información para elaborar la revista. </span>
-            </li>
+          <li class="mb-5">
+            <span>Identificar la información para elaborar la revista. </span>
+          </li>
 
-            <li class="mb-5">
-              <span
-                >Promover la elaboración de artículos de revisión para su
-                respectiva publicación.
-              </span>
-            </li>
+          <li class="mb-5">
+            <span
+              >Promover la elaboración de artículos de revisión para su
+              respectiva publicación.
+            </span>
+          </li>
 
-            <li class="mb-5">
-              <span>Promover la revista digital. </span>
-            </li>
-          </ul>
-        </div>
+          <li class="mb-5">
+            <span>Promover la revista digital. </span>
+          </li>
+        </ul>
         <img
-          class="mx-auto md:w-1/2 md:mr-5"
+          class="mx-auto md:w-1/2 md:mr-5 lg:w-72"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"

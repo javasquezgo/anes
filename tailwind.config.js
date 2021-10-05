@@ -31,6 +31,8 @@ module.exports = {
         back: "650px",
         card: "250px ",
         comite: "500px",
+        etica: "400px",
+        lider: "345px",
       },
 
       width: {
