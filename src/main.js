@@ -14,6 +14,13 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faCubes } from "@fortawesome/free-solid-svg-icons";
 import { faPlaceOfWorship } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faHandSparkles } from "@fortawesome/free-solid-svg-icons";
+import { faHouseUser } from "@fortawesome/free-solid-svg-icons";
+import { faHands } from "@fortawesome/free-solid-svg-icons";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faSearchLocation } from "@fortawesome/free-solid-svg-icons";
+import { faBookReader } from "@fortawesome/free-solid-svg-icons";
+import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(
@@ -25,7 +32,14 @@ library.add(
   faPlaceOfWorship,
   faClock,
   faFacebookF,
-  faTwitter
+  faTwitter,
+  faHandSparkles,
+  faHouseUser,
+  faHands,
+  faSun,
+  faSearchLocation,
+  faBookReader,
+  faPaintBrush
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

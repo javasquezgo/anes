@@ -272,7 +272,7 @@
       </div>
     </div>
 
-    <div class="mt-12">
+    <div id="higiene" class="mt-12">
       <h2
         class="
           mt-12
@@ -496,7 +496,7 @@
       </div>
     </div>
 
-    <div class="mt-16">
+    <div class="mt-16" id="estimulos">
       <h2
         class="
           mt-12
@@ -659,7 +659,7 @@
       </div>
     </div>
 
-    <div class="mt-16">
+    <div class="mt-16" id="investigar">
       <h2
         class="
           mt-12
@@ -731,7 +731,7 @@
       </div>
     </div>
 
-    <div class="mt-16">
+    <div class="mt-16" id="lider">
       <h2
         class="
           mt-12
@@ -800,7 +800,7 @@
       </div>
     </div>
 
-    <div class="mt-16">
+    <div class="mt-16" id="diseño">
       <h2
         class="
           mt-12

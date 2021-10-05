@@ -159,7 +159,7 @@
         </div>
       </router-link>
 
-      <router-link to="/comite#mejoramiento">
+      <router-link to="/comite#diseño">
         <div class="card-comite">
           <div
             class="
@@ -174,14 +174,172 @@
             "
           >
             <font-awesome-icon
-              icon="place-of-worship"
-              class="mx-4 text-5xl text-white-bone"
+              icon="paint-brush"
+              class="mx-5 text-6xl text-white-bone"
             />
           </div>
           <div class="mt-10 text-center">
             <h4 class="mb-5 font-bold text-gray-title">
-              Comite de Ética Profesional
+              Comité Diseño y Edición de Revista
             </h4>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <div class="mx-auto mt-12 md:flex contain-dom md:justify-between">
+      <router-link to="/comite#higiene">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="hand-sparkles"
+              class="mx-5 text-6xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">
+              Comité Higiene y seguridad Laboral
+            </h4>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/comite#dia">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="house-user"
+              class="mx-5 text-6xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">
+              Comité Pro-casa de la Enfermera
+            </h4>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/comite#estimulos">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="hands"
+              class="mx-4 text-5xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">Comité Estímulos</h4>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <div class="mx-auto mt-12 md:flex contain-dom md:justify-between">
+      <router-link to="/comite#higiene">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="sun"
+              class="mx-5 text-6xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">Comité Pro-Día</h4>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/comite#investigar">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="search-location"
+              class="mx-5 text-6xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">Comité Investigación</h4>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link to="/comite#lider">
+        <div class="card-comite">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              w-24
+              h-24
+              mx-auto
+              rounded-full
+              bg-blue-sky
+            "
+          >
+            <font-awesome-icon
+              icon="book-reader"
+              class="mx-4 text-5xl text-white-bone"
+            />
+          </div>
+          <div class="mt-10 text-center">
+            <h4 class="mb-5 font-bold text-gray-title">Comité Liderazgo</h4>
           </div>
         </div>
       </router-link>

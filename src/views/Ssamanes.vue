@@ -2,7 +2,14 @@
   <section>
     <div class="py-10 mx-auto contain-dom font-slab">
       <h2
-        class="w-11/12 mx-auto text-3xl text-center  md:w-9/12 xl:w-6/12 text-gray-title"
+        class="
+          w-11/12
+          mx-auto
+          text-3xl text-center
+          md:w-9/12
+          xl:w-6/12
+          text-gray-title
+        "
       >
         SISTEMA DE SERVICIOS Y AUXILIOS MUTUOS DE LA ASOCIACIÓN NACIONAL DE
         ENFERMERAS DE EL SALVADOR
@@ -78,7 +85,14 @@
           </h2>
 
           <ul
-            class="px-3 text-lg text-justify list-disc list-outside  text-gray-text mt-7 lg:ml-7"
+            class="
+              px-3
+              text-lg text-justify
+              list-disc list-outside
+              text-gray-text
+              mt-7
+              lg:ml-7
+            "
           >
             <li class="mb-4">
               <span>Licenciada(o) </span>
@@ -135,19 +149,40 @@
 
       <div class="mt-20">
         <h2
-          class="w-11/12 mx-auto text-3xl text-center  md:w-9/12 lg:w-6/12 text-gray-title"
+          class="
+            w-11/12
+            mx-auto
+            text-3xl text-center
+            md:w-9/12
+            lg:w-6/12
+            text-gray-title
+          "
         >
           BENEFICIOS QUE OFRECE SSAMANES
         </h2>
         <p
-          class="px-3 mt-5 text-lg text-justify  text-gray-text md:px-40 md:mx-auto xl:px-28"
+          class="
+            px-3
+            mt-5
+            text-lg text-justify text-gray-text
+            md:px-40 md:mx-auto
+            xl:px-28
+          "
         >
           La ayuda económica que ofrece S.S.A.M.A.N.E.S. a sus usuarias (os)
           hace un total de $4,500.00 (Cuatro Mil Quinientos 00/100 dólares
           americanos), distribuidos de la siguiente manera:
         </p>
         <table
-          class="w-5/12 mx-auto mt-10 text-gray-900 bg-white border-separate shadow-none "
+          class="
+            w-5/12
+            mx-auto
+            mt-10
+            text-gray-900
+            bg-white
+            border-separate
+            shadow-none
+          "
         >
           <tbody>
             <tr class="text-blue-900 bg-blue-100">
@@ -165,7 +200,13 @@
           </tbody>
         </table>
         <p
-          class="px-3 mt-5 text-lg text-justify  text-gray-text md:px-40 md:mx-auto xl:px-28"
+          class="
+            px-3
+            mt-5
+            text-lg text-justify text-gray-text
+            md:px-40 md:mx-auto
+            xl:px-28
+          "
         >
           Adicionalmente concede ayuda por invalidez total y permanente
           equivalente a $1,250.00 (Un mil doscientos cincuenta 00/100 dólares).
@@ -193,7 +234,13 @@
           </h2>
 
           <ul
-            class="px-3 text-lg text-justify list-disc list-outside  text-gray-text mt-7"
+            class="
+              px-3
+              text-lg text-justify
+              list-disc list-outside
+              text-gray-text
+              mt-7
+            "
           >
             <li class="mb-4">
               <span
