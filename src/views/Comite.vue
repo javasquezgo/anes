@@ -6,16 +6,18 @@
     <div class="mt-12" id="electoral">
       <h2
         class="
+          mx-auto
           mt-12
           mb-6
           text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        Comités Electoral
+        Comité Electoral
       </h2>
       <div class="lg:flex">
         <img
@@ -27,7 +29,7 @@
         />
         <div class="lg:w-1/2">
           <p class="w-11/12 mx-auto my-8 text-lg text-justify text-gray-title">
-            El Comité Electoral se conformará con cinco Miembros, cuya elección
+            Comité Electoral se conformará con cinco Miembros, cuya elección
             será en la primera Asamblea General Ordinaria del año de elecciones
             y operará de conformidad al procedimiento establecido en el
             Reglamento respectivo y con las siguientes atribuciones:
@@ -116,18 +118,24 @@
       <h2
         id="cientifico"
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        Comités Científico
+        Comité Científico
       </h2>
       <div class="flex flex-col-reverse mt-8 md:flex-row">
         <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité Científico tendrá las atribuciones Siguientes:
+          </p>
           <ul
             class="
               mx-auto
@@ -136,7 +144,7 @@
               lg:pr-14
               text-gray-title
               w-72
-              md:w-auto
+              md:w-auto md:mr-3
             "
           >
             <li class="mb-5">
@@ -176,25 +184,120 @@
             </li>
           </ul>
         </div>
-        <img
-          class="mx-auto md:w-1/2 md:mr-5"
-          height="auto"
-          width="auto"
-          src="@/assets/image-webp/comite-cientifico/Image04.webp"
-          alt="Logo de la ANES"
-        />
+        <div class="w-11/12 mx-auto mb-10 md:w-1/2 h-96">
+          <VueSlickCarousel v-bind="settings">
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image01.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image02.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image03.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image04.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image05.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image06.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image07.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image08.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image09.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image10.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image11.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-96"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-cientifico/Image12.webp"
+              alt="Comite"
+            />
+          </VueSlickCarousel>
+        </div>
       </div>
     </div>
 
     <div class="mt-16" id="etica">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
         Comité de Ética
@@ -208,6 +311,9 @@
         "
       >
         <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité Ética tendrá las atribuciones Siguientes:
+          </p>
           <ul
             class="
               mx-auto
@@ -272,21 +378,28 @@
       </div>
     </div>
 
-    <div id="higiene" class="mt-12">
+    <div id="higiene" class="mt-24">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El Comité de Higiene y Seguridad Laboral
+        Comité de Higiene y Seguridad Laboral
       </h2>
       <div class="flex flex-col-reverse mt-8 md:flex-row xl:h-96">
         <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité de Higiene y Seguridad Laboral tendrá las atribuciones
+            Siguientes:
+          </p>
           <ul
             class="
               mx-auto
@@ -352,79 +465,78 @@
       </div>
     </div>
 
-    <div class="mt-16" id="relaciones">
+    <div class="mt-24" id="relaciones">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El Comité de Relaciones públicas
+        Comité de Relaciones Públicas
       </h2>
       <div
         class="
           flex flex-col-reverse
+          justify-between
           mt-8
           md:flex-row-reverse
           lg:h-etica
           xl:h-lider
         "
       >
-        <ul
-          class="
-            h-auto
-            mx-auto
-            text-justify
-            list-decimal list-inside
-            md:w-1/2
-            text-gray-title
-            w-72
-          "
-        >
-          <li class="mb-5">
-            <span
-              >Apoyar la Logística de atención de representantes Nacionales e
-              Internacionales.
-            </span>
-          </li>
+        <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité de Relaciones públicas tendrá las atribuciones Siguientes:
+          </p>
+          <ul class="text-justify list-decimal list-inside text-gray-title">
+            <li class="mb-5">
+              <span
+                >Apoyar la Logística de atención de representantes Nacionales e
+                Internacionales.
+              </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Elaborar y publicar la revista anual de logros de la
-              Asociación.</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Elaborar y publicar la revista anual de logros de la
+                Asociación.</span
+              >
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Debe coordinar con el comité de revista para divulgar las
-              actividades nacionales e internacionales relevantes realizadas y
-              promocionar la Organización con todos los sectores de Enfermería,
-              redes sociales, medios de comunicación, así como la Inscripción de
-              nuevos socios.</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Debe coordinar con el comité de revista para divulgar las
+                actividades nacionales e internacionales relevantes realizadas y
+                promocionar la Organización con todos los sectores de
+                Enfermería, redes sociales, medios de comunicación, así como la
+                Inscripción de nuevos socios.</span
+              >
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Elaborar en forma digital la propuesta del suplemento del día de
-              la enfermera.</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Elaborar en forma digital la propuesta del suplemento del día
+                de la enfermera.</span
+              >
+            </li>
 
-          <li>
-            <span
-              >Elaborar, ejecutar y presentar Plan de Trabajo e informes de
-              actividades a Junta Directiva Nacional.
-            </span>
-          </li>
-        </ul>
+            <li>
+              <span
+                >Elaborar, ejecutar y presentar Plan de Trabajo e informes de
+                actividades a Junta Directiva Nacional.
+              </span>
+            </li>
+          </ul>
+        </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5 xl:w-mini"
+          class="mx-auto md:w-1/2 md:mr-5 xl:w-mini md:mx-0"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -433,58 +545,57 @@
       </div>
     </div>
 
-    <div class="mt-16" id="mejoramiento">
+    <div class="mt-20" id="mejoramiento">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El Comité Pro-Casa de la enfermera
+        Comité Pro-Casa
       </h2>
       <div class="flex flex-col-reverse mt-8 md:flex-row lg:h-72">
-        <ul
-          class="
-            mx-auto
-            text-justify
-            list-decimal list-inside
-            lg:pr-14
-            text-gray-title
-            w-72
-            md:w-1/2
-          "
-        >
-          <li class="mb-5">
-            <span
-              >Elaborar y presentar plan de trabajo a Junta Directiva Nacional.
-            </span>
-          </li>
+        <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité Pro-casa tendrá las atribuciones Siguientes:
+          </p>
+          <ul class="text-justify list-decimal list-inside text-gray-title">
+            <li class="mb-5">
+              <span
+                >Elaborar y presentar plan de trabajo a Junta Directiva
+                Nacional.
+              </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Presentar proyectos relacionados a la mejora de la casa de la
-              Enfermera
-            </span>
-          </li>
+            <li class="mb-5">
+              <span
+                >Presentar proyectos relacionados a la mejora de la casa de la
+                Enfermera
+              </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Desarrollar actividades que contribuyan al mejoramiento, el
-              confort y ambientación de la casa de la Enfermera.</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Desarrollar actividades que contribuyan al mejoramiento, el
+                confort y ambientación de la casa de la Enfermera.</span
+              >
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Presentar informe a Junta Directiva y en asamblea de actividades
-              realizadas.</span
-            >
-          </li>
-        </ul>
+            <li class="mb-5">
+              <span
+                >Presentar informe a Junta Directiva y en asamblea de
+                actividades realizadas.</span
+              >
+            </li>
+          </ul>
+        </div>
 
         <img
           class="mx-auto md:w-1/2 md:mr-5 lg:w-72"
@@ -499,12 +610,15 @@
     <div class="mt-16" id="estimulos">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
         Comité de Estímulos
@@ -518,6 +632,9 @@
         "
       >
         <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité de Estímulos tendrá las atribuciones Siguientes:
+          </p>
           <ul
             class="
               mx-auto
@@ -584,23 +701,29 @@
       </div>
     </div>
 
-    <div class="mt-16" id="dia">
+    <div class="mt-24" id="dia">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El Comité Pro-Día
+        Comité Pro-Día
       </h2>
       <div
         class="flex flex-col-reverse mt-8 md:flex-row xl:justify-evenly xl:h-80"
       >
         <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité Pro-Día tendrá las atribuciones Siguientes:
+          </p>
           <ul
             class="
               mx-auto
@@ -649,28 +772,67 @@
             </li>
           </ul>
         </div>
-        <img
-          class="mx-auto md:w-1/2 md:mr-5 xl:w-80 xl:m-0"
-          height="auto"
-          width="auto"
-          src="@/assets/image-webp/comite-pro-familia/Image02.webp"
-          alt="Logo de la ANES"
-        />
+        <div class="w-11/12 mx-auto mb-10 md:w-1/2 h-96">
+          <VueSlickCarousel v-bind="settings">
+            <img
+              class="rounded-lg h-80"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-pro-familia/Image01.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-80"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-pro-familia/Image02.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-80"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-pro-familia/Image03.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-80"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-pro-familia/Image04.webp"
+              alt="Comite"
+            />
+
+            <img
+              class="rounded-lg h-80"
+              height="auto"
+              width="auto"
+              src="@/assets/image-webp/comite-pro-familia/Image05.webp"
+              alt="Copro-familia"
+            />
+          </VueSlickCarousel>
+        </div>
       </div>
     </div>
 
-    <div class="mt-16" id="investigar">
+    <div class="mt-24" id="investigar">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El comité de Investigación
+        Comité de Investigación
       </h2>
       <div
         class="
@@ -690,6 +852,10 @@
             md:w-1/2
           "
         >
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité de Investigación tendrá las atribuciones Siguientes:
+          </p>
+
           <li class="mb-5">
             <span>Elaborar plan de trabajo. </span>
           </li>
@@ -731,18 +897,21 @@
       </div>
     </div>
 
-    <div class="mt-16" id="lider">
+    <div class="mt-24" id="lider">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
-        El Comité de Liderazgo
+        Comité de Liderazgo
       </h2>
       <div class="flex flex-col-reverse mt-8 md:flex-row lg:h-lider">
         <ul
@@ -756,6 +925,9 @@
             md:w-1/2
           "
         >
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité de Liderazgo tendrá las atribuciones Siguientes:
+          </p>
           <li class="mb-5">
             <span
               >Elaborar propuestas de visibilización de la profesión en espacios
@@ -803,58 +975,77 @@
     <div class="mt-16" id="diseño">
       <h2
         class="
+          mx-auto
           mt-12
-          text-4xl
+          mb-6
+          text-3xl
           font-bold
           text-center
+          md:w-96
           back-title-comite
-          text-gray-title
+          text-white-bone
         "
       >
         Comité Diseño y Edición de Revista
       </h2>
-      <div class="flex flex-col-reverse mt-8 md:flex-row-reverse lg:h-72">
-        <ul
-          class="
-            mx-auto
-            text-justify
-            list-decimal list-inside
-            text-gray-title
-            w-72
-            md:w-1/2
-          "
-        >
-          <li class="mb-5">
-            <span>Elaborar plan de trabajo. </span>
-          </li>
+      <div
+        class="
+          flex flex-col-reverse
+          justify-between
+          mt-8
+          md:flex-row-reverse
+          lg:h-72
+        "
+      >
+        <div class="md:w-1/2">
+          <p class="mx-auto w-72 mb-7 md:w-auto md:mx-0">
+            Comité Diseño y Edición de Revista tendrá las atribuciones
+            Siguientes:
+          </p>
+          <ul
+            class="
+              mx-auto
+              text-justify
+              list-decimal list-inside
+              md:mx-0
+              lg:pr-14
+              text-gray-title
+              w-72
+              md:w-auto
+            "
+          >
+            <li class="mb-5">
+              <span>Elaborar plan de trabajo. </span>
+            </li>
 
-          <li class="mb-5">
-            <span>Elaborar revista. </span>
-          </li>
+            <li class="mb-5">
+              <span>Elaborar revista. </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Gestionar el código internacional para la revista (ISBN).</span
-            >
-          </li>
+            <li class="mb-5">
+              <span
+                >Gestionar el código internacional para la revista (ISBN).</span
+              >
+            </li>
 
-          <li class="mb-5">
-            <span>Identificar la información para elaborar la revista. </span>
-          </li>
+            <li class="mb-5">
+              <span>Identificar la información para elaborar la revista. </span>
+            </li>
 
-          <li class="mb-5">
-            <span
-              >Promover la elaboración de artículos de revisión para su
-              respectiva publicación.
-            </span>
-          </li>
+            <li class="mb-5">
+              <span
+                >Promover la elaboración de artículos de revisión para su
+                respectiva publicación.
+              </span>
+            </li>
 
-          <li class="mb-5">
-            <span>Promover la revista digital. </span>
-          </li>
-        </ul>
+            <li class="mb-5">
+              <span>Promover la revista digital. </span>
+            </li>
+          </ul>
+        </div>
         <img
-          class="mx-auto md:w-1/2 md:mr-5 lg:w-72"
+          class="mx-auto md:m-0 md:w-1/2 md:mr-5 lg:w-72"
           height="auto"
           width="auto"
           src="@/assets/image/logo.jpg"
@@ -864,3 +1055,29 @@
     </div>
   </div>
 </template>
+<script>
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+
+export default {
+  name: "Comite",
+  components: { VueSlickCarousel },
+  data() {
+    return {
+      settings: {
+        arrows: false,
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 6000,
+        cssEase: "linear",
+      },
+    };
+  },
+};
+</script>

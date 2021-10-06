@@ -11,11 +11,18 @@
         <div class="mt-10 lg:m-0">
           <h3
             class="
+              py-4
+              mx-auto
               mb-5
               text-4xl
               leading-10
-              text-center text-gray-title
+              text-center
+              rounded-lg
+              md:pl-5 md:mx-0
+              w-60
+              text-white-bone
               md:text-left
+              bg-blue-soft
             "
           >
             Misión
@@ -40,7 +47,7 @@
             height="auto"
             width="auto"
             class="rounded lg:h-image md:w-medium"
-            src="@/assets/image-webp/filiales-departamentales/reunion.webp"
+            src="@/assets/image/logo.jpg"
             alt="Mision de ANES"
           />
         </figure>
@@ -52,11 +59,18 @@
         <div class="mt-10 lg:m-0">
           <h3
             class="
+              py-4
+              mx-auto
               mb-5
               text-4xl
               leading-10
-              text-center text-gray-title
+              text-center
+              rounded-lg
+              md:pl-5 md:mx-0
+              w-60
+              text-white-bone
               md:text-left
+              bg-blue-soft
             "
           >
             Visión
@@ -81,7 +95,7 @@
             height="auto"
             width="auto"
             class="rounded lg:h-image md:w-medium"
-            src="@/assets/image-webp/comite-pro-familia/Image04.webp"
+            src="@/assets/image/logo.jpg"
             alt="Mision de ANES"
           />
         </figure>
@@ -91,11 +105,18 @@
         <div class="mt-10 lg:m-0">
           <h3
             class="
+              py-4
+              mx-auto
               mb-5
               text-4xl
               leading-10
-              text-center text-gray-title
+              text-center
+              rounded-lg
+              md:pl-5 md:mx-0
+              w-60
+              text-white-bone
               md:text-left
+              bg-blue-soft
             "
           >
             Objetivo General
@@ -122,7 +143,7 @@
             height="auto"
             width="auto"
             class="rounded lg:h-image md:w-medium"
-            src="@/assets/image-webp/comite-cientifico/Image05.webp"
+            src="@/assets/image/logo.jpg"
             alt="Mision de ANES"
           />
         </figure>
