@@ -26,7 +26,7 @@
     >
       Elecciones Junta Directiva 2021-2024
     </h3>
-    <router-link to="/votacion"
+    <router-link to="/votacion#votar"
       ><span class="px-10 py-3 rounded-lg bg-blue-text text-white-bone">
         Votación</span
       ></router-link

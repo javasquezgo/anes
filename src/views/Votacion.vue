@@ -1,6 +1,7 @@
 <template>
   <section
     class="flex flex-col items-center justify-center text-center py-80 h-card"
+    id="votar"
   >
     <h2 class="mb-10 text-5xl text-gray-title">Sitio en Construcción</h2>
 
