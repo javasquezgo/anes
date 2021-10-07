@@ -19,6 +19,7 @@ module.exports = {
           bone: "#fbfbfb",
           clear: "#fff",
           dirty: "#f7f7f7",
+          add: "#fafafa",
         },
         gray: {
           text: "#626262",
