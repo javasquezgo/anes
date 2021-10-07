@@ -10,6 +10,7 @@ import Contacto from "@/views/Contacto.vue";
 import Comite from "@/views/Comite.vue";
 import Votacion from "@/views/Votacion.vue";
 import Ssamanes from "@/views/Ssamanes.vue";
+import Planilla from "@/views/Planilla.vue";
 
 Vue.use(Router);
 
@@ -56,6 +57,11 @@ export default new Router({
       path: "/ssamanes",
       name: "ssamanes",
       component: Ssamanes,
+    },
+    {
+      path: "/planilla",
+      name: "planilla",
+      component: Planilla,
     },
     {
       path: "*",

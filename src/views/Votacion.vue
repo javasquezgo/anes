@@ -13,32 +13,6 @@
       alt="Informacion de votacion"
     />
 
-    <div class="mb-10">
-      <img
-        class="w-11/12 mx-auto"
-        width="auto"
-        height="auto"
-        src="@/assets/image-webp/Plantilla/planilla1.webp"
-        alt="Planilla1"
-      />
-
-      <img
-        class="w-11/12 mx-auto my-5"
-        width="auto"
-        height="auto"
-        src="@/assets/image-webp/Plantilla/planilla1-vote.webp"
-        alt="Planilla1"
-      />
-
-      <img
-        class="w-11/12 mx-auto my-5"
-        width="auto"
-        height="auto"
-        src="@/assets/image-webp/Plantilla/vota-planilla-1.webp"
-        alt="Planilla1"
-      />
-    </div>
-
     <a href="https://dev1.heavywebdesign.com/2pixanes/elecciones"
       ><span
         class="
@@ -55,10 +29,29 @@
 
     <div class="py-10"></div>
 
-    <router-link to="/"
-      ><span class="px-10 py-2 rounded-lg bg-blue-text text-white-bone">
-        Volver a inicio</span
+    <router-link to="/planilla"
+      ><span
+        class="
+          px-20
+          py-3
+          rounded-lg
+          hover:shadow-xl
+          bg-blue-soft
+          text-white-bone
+        "
+      >
+        Planillas</span
       ></router-link
     >
+
+    <!-- <div class="py-10"></div>
+
+    <router-link to="/"
+      ><span
+        class="px-10 py-3 rounded-lg hover:shadow-xl bg-blue-soft text-white-bone"
+      >
+        Volver a inicio</span
+      ></router-link
+    > -->
   </section>
 </template>

@@ -48,7 +48,7 @@
           md:px-20 md:py-10 md:my-10
         "
       >
-        Planillas</span
+        Elecciones</span
       ></router-link
     >
     <img
