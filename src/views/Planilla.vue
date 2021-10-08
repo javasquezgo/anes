@@ -13,7 +13,7 @@
         class="w-11/12 mx-auto mb-12"
         width="auto"
         height="auto"
-        src="@/assets/image-webp/Plantilla/imagen02.webp"
+        src="@/assets/image-webp/Plantilla/imagen02.png"
         alt="Planilla1"
       />
 
