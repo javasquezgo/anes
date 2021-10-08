@@ -31,7 +31,7 @@
       class="w-11/12 mb-10 md:w-7/12 md:mb-20"
       width="auto"
       height="auto"
-      src="@/assets/image-webp/Postulacion1.webp"
+      src="@/assets/image-webp/Postulacion-1.webp"
       alt="Informacion de votacion"
     />
 

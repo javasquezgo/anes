@@ -39,12 +39,22 @@
       </div>
     </div>
 
-    <nav class="items-center justify-between mx-auto mb-4 md:flex contain-dom">
+    <nav
+      class="
+        items-center
+        justify-between
+        mx-auto
+        mb-4
+        md:block
+        lg:flex
+        contain-dom
+      "
+    >
       <div class="flex items-center">
         <menu-icon @click="toogle()" class="ml-4 md:hidden" />
 
         <img
-          class="w-20 h-20 mx-auto md:m-0"
+          class="w-20 h-20 mx-auto md:mb-5"
           src="@/assets/image/logo.jpg"
           alt="Logo Anes"
         />

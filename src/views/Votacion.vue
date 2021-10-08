@@ -9,7 +9,7 @@
       class="w-11/12 mb-10 md:w-7/12 lg:w-4/12 md:mb-20"
       width="auto"
       height="auto"
-      src="@/assets/image-webp/Postulacion2.webp"
+      src="@/assets/image-webp/Postulacion-2.webp"
       alt="Informacion de votacion"
     />
 
