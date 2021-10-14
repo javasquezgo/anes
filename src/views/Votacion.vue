@@ -15,7 +15,14 @@
 
     <a href="https://dev1.heavywebdesign.com/2pixanes/elecciones"
       ><span
-        class="px-10 py-3 rounded-lg  hover:shadow-xl bg-blue-soft text-white-bone"
+        class="
+          px-10
+          py-3
+          rounded-lg
+          hover:shadow-xl
+          bg-blue-soft
+          text-white-bone
+        "
         >Enlace de Votación</span
       ></a
     >
@@ -24,7 +31,14 @@
 
     <router-link to="/planilla"
       ><span
-        class="px-20 py-3 rounded-lg  hover:shadow-xl bg-blue-soft text-white-bone"
+        class="
+          px-20
+          py-3
+          rounded-lg
+          hover:shadow-xl
+          bg-blue-soft
+          text-white-bone
+        "
       >
         Planillas</span
       ></router-link

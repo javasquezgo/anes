@@ -12,13 +12,14 @@
           />
         </div>
         <div class="text-white-bone font-slab">
-          <h4 class="my-4 font-bold text-center md:text-left md:ml-9">ANES</h4>
+          <h4 class="my-4 font-bold text-center md:text-left md:ml-7">ANES</h4>
           <p class="px-7 md:w-96">
             Calle antigua a Huizucar, No. 157, Reparto Los Héroes, entre calles:
             Gabriel Rosales y Matías Alvarado, San Salvador, El Salvador, C.A.
-            <br />Tel: 2248-2430, 2248-2431, Fax: 2248-2430,
+            <br />Tel/Fax: 2248-2430, 2248-2431 Whasap: 7986-6316
             <br />aneselsalvador@anes.org.sv <br />Apartado Postal No. 01-163
-            <br />SSAMANES: 227322-75
+            <br />SSAMANES: 2273 2275 Whasap: 7034-7879
+            <br />ssamanes@anes.org.sv
           </p>
         </div>
       </div>
