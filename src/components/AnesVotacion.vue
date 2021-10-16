@@ -19,7 +19,7 @@
         font-bold
         text-center
         uppercase
-        md:px-40
+        md:mb-20 md:px-40
         xl:px-80
         text-gray-title
       "
@@ -27,19 +27,12 @@
       Elecciones Junta Directiva 2021-2024
     </h3>
 
-    <img
-      class="w-11/12 mb-10 md:w-7/12 md:mb-20"
-      width="auto"
-      height="auto"
-      src="@/assets/image-webp/Postulacion-1.webp"
-      alt="Informacion de votacion"
-    />
-
     <router-link to="/votacion#votar"
       ><span
         class="
           px-10
           py-3
+          md:my-8
           rounded-2xl
           md:text-5xl
           bg-blue-text
@@ -51,6 +44,15 @@
         Elecciones</span
       ></router-link
     >
+
+    <img
+      class="w-11/12 mt-8 mb-10 md:mt-32 md:w-7/12 md:mb-20"
+      width="auto"
+      height="auto"
+      src="@/assets/image-webp/Postulacion-1.webp"
+      alt="Informacion de votacion"
+    />
+
     <img
       class="mt-8 text-center xl:w-8/12 md:mt-32"
       width="auto"

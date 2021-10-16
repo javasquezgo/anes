@@ -13,6 +13,30 @@
       alt="Informacion de votacion"
     />
 
+    <img
+      class="w-11/12 mb-10 md:w-7/12 lg:w-4/12 md:mb-20"
+      width="auto"
+      height="auto"
+      src="@/assets/image-webp/votacion.webp"
+      alt="Informacion de votacion"
+    />
+
+    <a href="https://zoom.us/webinar/register/WN_oY25ggQcS3CN33Qw89F15w"
+      ><span
+        class="
+          py-3
+          rounded-lg
+          px-14
+          hover:shadow-xl
+          bg-blue-soft
+          text-white-bone
+        "
+        >Reunión Zoom</span
+      ></a
+    >
+
+    <div class="py-10"></div>
+
     <a href="https://dev1.heavywebdesign.com/2pixanes/elecciones"
       ><span
         class="
