@@ -37,7 +37,7 @@
 
     <div class="py-10"></div>
 
-    <a href="https://dev1.heavywebdesign.com/2pixanes/elecciones"
+    <a href="https://sistema.anes.org.sv/elecciones"
       ><span
         class="
           px-10
