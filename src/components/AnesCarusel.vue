@@ -4,29 +4,12 @@
       <div class="bg-center bg-cover h-back bg-portada">
         <div class="flex flex-col items-center">
           <h3
-            class="
-              mb-10
-              text-3xl
-              font-bold
-              text-center
-              mt-28
-              justify-self-start
-              md:text-5xl
-              text-white-bone
-            "
+            class="mb-10 text-3xl font-bold text-center  mt-28 justify-self-start md:text-5xl text-white-bone"
           >
             DIOS-UNION-HUMANIDAD
           </h3>
           <router-link
-            class="
-              px-10
-              py-3
-              text-xl
-              rounded-lg
-              md:text-3xl
-              text-white-bone
-              bg-blue-sky
-            "
+            class="px-10 py-3 text-xl rounded-lg  md:text-3xl text-white-bone bg-blue-sky"
             to="/"
             >Contactanos
           </router-link>
@@ -36,27 +19,12 @@
       <div class="bg-right bg-cover h-back bg-portada2">
         <div class="flex flex-col items-center justify-center">
           <h3
-            class="
-              mb-10
-              text-3xl
-              font-bold
-              text-center text-white-bone
-              md:text-5xl
-              mt-28
-            "
+            class="mb-10 text-3xl font-bold text-center  text-white-bone md:text-5xl mt-28"
           >
             Profesionales de Enfermería
           </h3>
           <router-link
-            class="
-              px-10
-              py-3
-              text-xl
-              rounded-lg
-              md:text-3xl
-              text-white-bone
-              bg-blue-sky
-            "
+            class="px-10 py-3 text-xl rounded-lg  md:text-3xl text-white-bone bg-blue-sky"
             to="/historia"
             >Nuestra Historia</router-link
           >
@@ -79,7 +47,7 @@ export default {
     return {
       setting: {
         arrows: false,
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,

@@ -8,9 +8,7 @@ import Historia from "@/views/Historia.vue";
 import Asociate from "@/views/Asociate.vue";
 import Contacto from "@/views/Contacto.vue";
 import Comite from "@/views/Comite.vue";
-import Votacion from "@/views/Votacion.vue";
 import Ssamanes from "@/views/Ssamanes.vue";
-import Planilla from "@/views/Planilla.vue";
 
 Vue.use(Router);
 
@@ -49,19 +47,9 @@ export default new Router({
       component: Contacto,
     },
     {
-      path: "/votacion",
-      name: "votacion",
-      component: Votacion,
-    },
-    {
       path: "/ssamanes",
       name: "ssamanes",
       component: Ssamanes,
-    },
-    {
-      path: "/planilla",
-      name: "planilla",
-      component: Planilla,
     },
     {
       path: "*",

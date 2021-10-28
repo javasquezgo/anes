@@ -1,16 +1,7 @@
 <template>
   <header class="font-slab">
     <div
-      class="
-        flex
-        items-center
-        justify-between
-        h-32
-        mb-4
-        shadow-md
-        md:h-16
-        lg:px-16
-      "
+      class="flex items-center justify-between h-32 mb-4 shadow-md  md:h-16 lg:px-16"
     >
       <div class="flex items-center">
         <font-awesome-icon
@@ -40,15 +31,7 @@
     </div>
 
     <nav
-      class="
-        items-center
-        justify-between
-        mx-auto
-        mb-4
-        md:block
-        lg:flex
-        contain-dom
-      "
+      class="items-center justify-between mx-auto mb-4  md:block lg:flex contain-dom"
     >
       <div class="flex items-center">
         <menu-icon @click="toogle()" class="ml-4 md:hidden" />
@@ -80,9 +63,6 @@
         </li>
         <li class="nav-menu">
           <router-link to="/ssamanes">SSAMANES</router-link>
-        </li>
-        <li class="nav-menu">
-          <router-link to="/votacion"><span>Votación</span></router-link>
         </li>
         <li class="nav-menu">
           <router-link to="/contacto">Contacto</router-link>

@@ -9,8 +9,6 @@
 <script>
 import AnesHistorySection from "@/components/AnesHistorySection.vue";
 import AnesComites from "@/components/AnesComites.vue";
-
-import AnesVotacion from "@/components/AnesVotacion.vue";
 import AnesCarusel from "@/components/AnesCarusel.vue";
 
 export default {
@@ -18,7 +16,6 @@ export default {
   components: {
     AnesHistorySection,
     AnesComites,
-    AnesVotacion,
     AnesCarusel,
   },
 };
